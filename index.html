@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)file:///C:/Users/winne/Downloads/index_1.html -->
-<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Career Up! Bio Interview Archive</title>
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link href="./Career Up! Bio Interview Archive_files/css2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 /* ── DESIGN TOKENS ─────────────────────────────────── */
 :root {
@@ -470,12 +470,12 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ── HEADER ── -->
 <header>
   <div class="header-inner">
-    <div class="header-eyebrow">260515 가천대 특강 · 취업 인사이트</div>
+    <div class="header-eyebrow">한국바이오협회 · 취업 인사이트</div>
     <h1>Career Up!<br><em>Bio Interview Archive</em></h1>
     <p>제약·바이오 생산·품질 직무 면접 기출 · GMP 용어사전 · ALCOA++ 완전정복</p>
     <div class="header-stats">
-      <div class="stat"><div class="hstat-num" id="hTotalQ">71</div><div class="hstat-label">면접 질문</div></div>
-      <div class="stat"><div class="hstat-num">12</div><div class="hstat-label">기업 기출</div></div>
+      <div class="stat"><div class="hstat-num" id="hTotalQ">-</div><div class="hstat-label">면접 질문</div></div>
+      <div class="stat"><div class="hstat-num">15</div><div class="hstat-label">기업 기출</div></div>
       <div class="stat"><div class="hstat-num">70+</div><div class="hstat-label">GMP 용어</div></div>
       <div class="stat"><div class="hstat-num">9</div><div class="hstat-label">ALCOA++ 원칙</div></div>
     </div>
@@ -485,11 +485,11 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ── NAV ── -->
 <div class="nav-wrap">
   <div class="nav-inner">
-    <button class="tab-btn active" onclick="switchTab(&#39;home&#39;)">홈</button>
-    <button class="tab-btn" onclick="switchTab(&#39;qa&#39;)">면접 기출 질문</button>
-    <button class="tab-btn" onclick="switchTab(&#39;gloss&#39;)">📖 GMP 용어사전</button>
-    <button class="tab-btn" onclick="switchTab(&#39;alcoa&#39;)">ALCOA++ 완전정복</button>
-    <button class="tab-btn" onclick="switchTab(&#39;co&#39;)">🏢 기업별 기출</button>
+    <button class="tab-btn active"  onclick="switchTab('home')">홈</button>
+    <button class="tab-btn"         onclick="switchTab('qa')">면접 기출 질문</button>
+    <button class="tab-btn"         onclick="switchTab('gloss')">📖 GMP 용어사전</button>
+    <button class="tab-btn"         onclick="switchTab('alcoa')">ALCOA++ 완전정복</button>
+    <button class="tab-btn"         onclick="switchTab('co')">🏢 기업별 기출</button>
   </div>
 </div>
 
@@ -498,8 +498,8 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ══ HOME ══════════════════════════════════════════ -->
 <div id="tab-home" class="section active">
   <div class="stats-row">
-    <div><div class="st-num" id="totalQ2">71</div><div class="st-label">면접 질문</div></div>
-    <div><div class="st-num">12</div><div class="st-label">기업 기출</div></div>
+    <div><div class="st-num" id="totalQ2">-</div><div class="st-label">면접 질문</div></div>
+    <div><div class="st-num">15</div><div class="st-label">기업 기출</div></div>
     <div><div class="st-num">70+</div><div class="st-label">GMP 용어</div></div>
     <div><div class="st-num">9</div><div class="st-label">ALCOA++ 원칙</div></div>
   </div>
@@ -510,28 +510,28 @@ footer strong { color: var(--ink2); font-weight: 600; }
   </p>
 
   <div class="home-grid">
-    <div class="home-card" onclick="switchTab(&#39;qa&#39;)">
+    <div class="home-card" onclick="switchTab('qa')">
       <div class="home-icon" style="background:#EAF1F8">📝</div>
       <h3>면접 기출 질문</h3>
       <p>카테고리·검색 필터. <span style="background:var(--am-light);color:var(--am);font-size:.68rem;font-weight:600;padding:1px 5px;border-radius:3px;border:1px solid var(--am-border)">실제기출</span> 태그로 기업·날짜 구분</p>
       <div class="home-cta">바로가기 →</div>
     </div>
-    <div class="home-card" onclick="switchTab(&#39;gloss&#39;)">
+    <div class="home-card" onclick="switchTab('gloss')">
       <div class="home-icon" style="background:#D8F3DC">📖</div>
       <h3>GMP 용어사전</h3>
       <p>현장 실무 용어 70+ · 알파벳순 정렬 · 카테고리 필터</p>
       <div class="home-cta">바로가기 →</div>
     </div>
-    <div class="home-card" onclick="switchTab(&#39;alcoa&#39;)">
+    <div class="home-card" onclick="switchTab('alcoa')">
       <div class="home-icon" style="background:#EDE9FE">🏛️</div>
       <h3>ALCOA++ 완전정복</h3>
       <p>9대 원칙 (Traceability 포함) · 위반 사례 · 규제기관별 요구사항</p>
       <div class="home-cta">바로가기 →</div>
     </div>
-    <div class="home-card" onclick="switchTab(&#39;co&#39;)">
+    <div class="home-card" onclick="switchTab('co')">
       <div class="home-icon" style="background:#FEF3C7">🏢</div>
       <h3>기업별 기출</h3>
-      <p>삼성바이오·셀트리온·한미·종근당·녹십자 등 12개사 면접 후기</p>
+      <p>삼성바이오·셀트리온·한미·종근당·녹십자 등 15개사 면접 후기</p>
       <div class="home-cta">바로가기 →</div>
     </div>
   </div>
@@ -539,7 +539,7 @@ footer strong { color: var(--ink2); font-weight: 600; }
   <div class="info-box">
     <div class="info-box-title">💡 활용 가이드</div>
     <ul>
-      <li><strong>면접 기출 질문</strong> — 12개 기업 기출 포함, <span style="background:var(--am-light);color:var(--am);font-size:.7rem;font-weight:600;padding:1px 5px;border-radius:3px">실제기출</span> 태그에 기업명·날짜 표시</li>
+      <li><strong>면접 기출 질문</strong> — 15개 기업 기출 포함, <span style="background:var(--am-light);color:var(--am);font-size:.7rem;font-weight:600;padding:1px 5px;border-radius:3px">실제기출</span> 태그에 기업명·날짜 표시</li>
       <li><strong>GMP 용어사전</strong> — 모르는 용어가 생기면 즉시 검색. 면접 전날 카테고리별 복습 추천</li>
       <li><strong>ALCOA++</strong> — <span style="background:#EDE9FE;color:#5B21B6;font-size:.7rem;font-weight:700;padding:1px 5px;border-radius:3px">PIC/S 최신</span> Traceability 원칙까지 9개 전부 암기</li>
       <li><strong>기업별 기출</strong> — 지원 기업 탭에서 면접 패턴 사전 파악, 직무 핵심 질문 집중 준비</li>
@@ -550,27 +550,27 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ══ QA ═════════════════════════════════════════════ -->
 <div id="tab-qa" class="section">
   <div class="search-wrap">
-    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"></circle><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
     <input class="search-box" type="text" id="qaSearch" placeholder="질문 검색  (예: CAPA, OOS, 밸리데이션, 교대근무)..." oninput="filterQA()">
   </div>
   <div class="filter-bar" id="qaFilterBar">
-    <button class="chip active" onclick="setQAFilter(&#39;전체&#39;)">전체</button>
-    <button class="chip" onclick="setQAFilter(&#39;GMP 기본개념&#39;)">GMP 기본개념</button>
-    <button class="chip" onclick="setQAFilter(&#39;QC 심화&#39;)">QC 심화</button>
-    <button class="chip" onclick="setQAFilter(&#39;QA 심화&#39;)">QA 심화</button>
-    <button class="chip" onclick="setQAFilter(&#39;데이터·문서화&#39;)">데이터·문서화</button>
-    <button class="chip" onclick="setQAFilter(&#39;상황대처·인성&#39;)">상황대처·인성</button>
-    <button class="chip" onclick="setQAFilter(&#39;지원동기·직무이해&#39;)">지원동기·직무이해</button>
-    <button class="chip" onclick="setQAFilter(&#39;실제기출&#39;)">⭐ 실제기출만</button>
+    <button class="chip active" onclick="setQAFilter('전체')">전체</button>
+    <button class="chip" onclick="setQAFilter('GMP 기본개념')">GMP 기본개념</button>
+    <button class="chip" onclick="setQAFilter('QC 심화')">QC 심화</button>
+    <button class="chip" onclick="setQAFilter('QA 심화')">QA 심화</button>
+    <button class="chip" onclick="setQAFilter('데이터·문서화')">데이터·문서화</button>
+    <button class="chip" onclick="setQAFilter('상황대처·인성')">상황대처·인성</button>
+    <button class="chip" onclick="setQAFilter('지원동기·직무이해')">지원동기·직무이해</button>
+    <button class="chip" onclick="setQAFilter('실제기출')">⭐ 실제기출만</button>
   </div>
-  <div class="qa-list" id="qaGrid"><div class="qa-card"><div class="q-num">Q1</div><div class="q-body"><div class="q-text">GMP란 무엇이며, 왜 중요한가요? (3대 목적 — 오염 방지·혼동 착오 방지·품질 일관성 — 과 연관 지어 설명해보세요)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">셀트리온 2025.02</span><span class="badge badge-co">삼성바이오로직스 2020.05</span><span class="badge badge-co">대웅제약 2026.03</span><span class="badge badge-co">지씨셀 2025.09</span><span class="badge badge-co">한미약품 2024.12</span><span class="badge badge-co">녹십자 2024.05</span><span class="badge badge-co">대원제약 2023.04</span></div></div></div><div class="qa-card"><div class="q-num">Q2</div><div class="q-body"><div class="q-text">QC(품질관리)와 QA(품질보증)의 차이점은 무엇인가요? 본인이 어떤 직무에 더 적합한지 이유와 함께 말해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2023.01</span><span class="badge badge-co">HK이노엔 2025.05</span></div></div></div><div class="qa-card"><div class="q-num">Q3</div><div class="q-body"><div class="q-text">4대 기준서(제품표준서·품질관리기준서·제조관리기준서·제조위생관리기준서)에 대해 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span></div></div></div><div class="qa-card"><div class="q-num">Q4</div><div class="q-body"><div class="q-text">밸리데이션(Validation)이란 무엇이며, 종류에는 어떤 것들이 있나요? (공정·분석법·세척·CSV)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">셀트리온 2019.04</span><span class="badge badge-co">셀트리온 2019.08</span><span class="badge badge-co">보령 2024.09</span><span class="badge badge-co">동아ST 2026.04</span></div></div></div><div class="qa-card"><div class="q-num">Q5</div><div class="q-body"><div class="q-text">적격성 평가(Qualification)와 밸리데이션의 차이점은? IQ·OQ·PQ를 각각 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span></div></div></div><div class="qa-card"><div class="q-num">Q6</div><div class="q-body"><div class="q-text">GMP와 cGMP의 차이점은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">셀트리온 2024.08</span></div></div></div><div class="qa-card"><div class="q-num">Q7</div><div class="q-body"><div class="q-text">일탈(Deviation)과 기준일탈(OOS)의 차이점은 무엇인가요? OOT(Out of Trend)와의 관계도 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q8</div><div class="q-body"><div class="q-text">CAPA(시정 및 예방조치)란 무엇이며, 어떤 절차로 진행되나요? 좋은 CAPA와 나쁜 CAPA의 차이를 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span><span class="badge badge-co">대웅제약 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q9</div><div class="q-body"><div class="q-text">변경관리(Change Control)는 왜 필요하며, 어떤 절차를 거치나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span></div></div></div><div class="qa-card"><div class="q-num">Q10</div><div class="q-body"><div class="q-text">문서관리의 중요성과 Good Documentation Practice란 무엇인가요? 품질관리에서 가장 중요하다고 생각하는 점은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">한미약품 2025.03</span><span class="badge badge-co">HK이노엔 2025.11</span><span class="badge badge-co">대웅제약 2026.03</span><span class="badge badge-co">유한양행 2024.10</span></div></div></div><div class="qa-card"><div class="q-num">Q11</div><div class="q-body"><div class="q-text">GMP 교육 과정의 내용을 설명해보세요. 직무 교육에서 무엇을 배웠나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">종근당 2026.04</span></div></div></div><div class="qa-card"><div class="q-num">Q12</div><div class="q-body"><div class="q-text">시험(Test)과 실험(Experiment)의 차이점은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF3ED;color:#2D6A4F">GMP 기본개념</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">유한양행 2022.09</span></div></div></div><div class="qa-card"><div class="q-num">Q13</div><div class="q-body"><div class="q-text">QC 업무에 필요한 핵심 역량은 무엇이라고 생각하나요? 본인의 경험과 연결하여 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q14</div><div class="q-body"><div class="q-text">HPLC, GC 등 기기 분석 경험이 있나요? HPLC 원리와 경험을 구체적으로 설명해보세요. (꼬리 질문 대비)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">셀트리온 2019.01</span><span class="badge badge-co">셀트리온 2018.11</span><span class="badge badge-co">HK이노엔 2020.12</span><span class="badge badge-co">HK이노엔 2025.05</span><span class="badge badge-co">보령 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q15</div><div class="q-body"><div class="q-text">시험법 밸리데이션(AMV) 파라미터 — 특이성·정확성·정밀성·직선성·LOD/LOQ — 에 대해 설명해보세요. (ICH Q2 관련)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">한미약품 2025.10</span></div></div></div><div class="qa-card"><div class="q-num">Q16</div><div class="q-body"><div class="q-text">정확성(Accuracy)과 정밀성(Precision)의 차이는 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">유한양행 2022.09</span></div></div></div><div class="qa-card"><div class="q-num">Q17</div><div class="q-body"><div class="q-text">기준일탈(OOS) 발생 시 실험실 조사 절차를 Phase I / Phase II로 나누어 설명해보세요. 시스템 적합성(System Suitability)이란?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q18</div><div class="q-body"><div class="q-text">안정성 시험(Stability Study)의 목적과 ICH Q1 기준 보관 조건(장기/가속/가혹)은 어떻게 설정되나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q19</div><div class="q-body"><div class="q-text">대한민국약전(KP), 미국약전(USP), 유럽약전(EP) 등 공정서에 대해 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q20</div><div class="q-body"><div class="q-text">공정서의 시험법이란 무엇이며, 자사 시험법과의 관계는 어떻게 되나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2025.10</span></div></div></div><div class="qa-card"><div class="q-num">Q21</div><div class="q-body"><div class="q-text">시험에 사용되는 표준품(Reference Standard)과 시약은 어떻게 관리해야 하나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q22</div><div class="q-body"><div class="q-text">무균시험, 엔도톡신 시험 등 미생물 시험 절차와 주의사항을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q23</div><div class="q-body"><div class="q-text">환경 모니터링(EM)은 왜 실시하며, 어떤 항목들을 어떤 방법으로 관리하나요? (Grade A~D 등급 기준)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2025.06</span></div></div></div><div class="qa-card"><div class="q-num">Q24</div><div class="q-body"><div class="q-text">시험 장비의 검교정(Calibration)은 왜 중요하며, 어떻게 주기적으로 관리해야 하나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q25</div><div class="q-body"><div class="q-text">CoA(시험성적서) 작성 시 가장 중요하게 생각하는 점은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q26</div><div class="q-body"><div class="q-text">제조용수(정제수·주사용수)의 품질관리 항목에 대해 설명해보세요. 두 가지의 차이점은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q27</div><div class="q-body"><div class="q-text">원료의약품(API)과 완제의약품의 시험 항목 차이와 주사제에서 요구되는 추가 항목을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q28</div><div class="q-body"><div class="q-text">가장 자신 있는 분석 기기 하나를 골라 원리와 사용 시 주의사항을 상세히 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">한미약품 2024.11</span><span class="badge badge-co">한미약품 2024.09</span><span class="badge badge-co">HK이노엔 2024.06</span></div></div></div><div class="qa-card"><div class="q-num">Q29</div><div class="q-body"><div class="q-text">데이터 분석 시 평균(Average)만 사용하면 안 좋은 점은 무엇인가요? (통계적 한계)</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">동아ST 2026.04</span></div></div></div><div class="qa-card"><div class="q-num">Q30</div><div class="q-body"><div class="q-text">LIMS(실험실 정보 관리 시스템)의 장점과 21 CFR Part 11 연관성을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#EAF1F8;color:#1B4F72">QC 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q31</div><div class="q-body"><div class="q-text">QA 업무에 필요한 핵심 역량은 무엇이며, QA의 독립성(Independence)이 왜 중요한지 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q32</div><div class="q-body"><div class="q-text">일탈 처리 절차를 단계별로 설명해보세요. 아주 사소한 일이라도 일탈이라고 생각하나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span><span class="badge badge-co">대웅제약 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q33</div><div class="q-body"><div class="q-text">제품 품질 불만(Complaint) 처리 프로세스와 Recall로 이어지는 판단 기준(Class I/II/III)을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q34</div><div class="q-body"><div class="q-text">공급업체(Supplier) 관리 프로세스와 품질 협약(Quality Agreement)이란 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q35</div><div class="q-body"><div class="q-text">연간 품질 평가(APQR/PQR)의 목적과 포함되어야 할 내용은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q36</div><div class="q-body"><div class="q-text">내부감사(Self-Inspection)와 외부 규제실사(Regulatory Inspection)의 차이와 준비 방법은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q37</div><div class="q-body"><div class="q-text">교차오염(Cross-contamination) 방지를 위한 GMP 대책을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q38</div><div class="q-body"><div class="q-text">무균의약품 제조시설에서 QA 담당자가 특별히 주의해야 할 점은? (Media Fill, Annex 1 2022 연관)</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q39</div><div class="q-body"><div class="q-text">품질 위험 관리(QRM, ICH Q9)란 무엇이며, FMEA의 RPN 공식과 실무 적용을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q40</div><div class="q-body"><div class="q-text">배치 기록서(BMR)를 검토할 때 중점적으로 확인해야 할 사항은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q41</div><div class="q-body"><div class="q-text">출하 승인(Batch Release) 결정 시 가장 중요하게 고려해야 할 점은? 납기 압박이 있어도 보류할 수 있나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span></div></div></div><div class="qa-card"><div class="q-num">Q42</div><div class="q-body"><div class="q-text">의약품 청결도 관리에서 가장 중요한 프로세스는 무엇인가요? 완제 공정 전반의 흐름(vial 세척~capping)을 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">한미약품 2024.06</span><span class="badge badge-co">의약품 청결도 관리 — 한미약품 2024.06</span></div></div></div><div class="qa-card"><div class="q-num">Q43</div><div class="q-body"><div class="q-text">GMP와 관련하여 세포 오염이나 방진복(방호복) 착용에 관한 견해를 말해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">동아ST 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q44</div><div class="q-body"><div class="q-text">밸리데이션(Validation)이란 무엇인지, 현장에서 어떻게 적용하는지 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF9EC;color:#92400E">QA 심화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">보령 2024.09</span></div></div></div><div class="qa-card"><div class="q-num">Q45</div><div class="q-body"><div class="q-text">Data Integrity(데이터 무결성)란 무엇이며 왜 중요한가요? ALCOA++ 원칙과 연관 지어, 초등학생에게도 설명하듯 쉽게 말해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span><span class="badge badge-co">대웅제약 2025.07</span><span class="badge badge-co">한미약품 2025.08</span><span class="badge badge-co">HK이노엔 2020.12</span><span class="badge badge-co">동아ST 2024.05</span><span class="badge badge-co">동아ST 2024.06</span></div></div></div><div class="qa-card"><div class="q-num">Q46</div><div class="q-body"><div class="q-text">종이 기록에서 수정이 필요할 때 GMP에서 요구하는 올바른 방법은? 수정액을 쓰면 안 되는 이유는?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span></div></div></div><div class="qa-card"><div class="q-num">Q47</div><div class="q-body"><div class="q-text">전자 시스템에서 데이터를 삭제하거나 덮어쓰면 안 되는 이유와 Audit Trail이 무엇인지 설명해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span></div></div></div><div class="qa-card"><div class="q-num">Q48</div><div class="q-body"><div class="q-text">원본 데이터(Raw Data)란 무엇이며 어떻게 관리해야 하나요? ALCOA Original 원칙과 연결하여 설명하세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span></div></div></div><div class="qa-card"><div class="q-num">Q49</div><div class="q-body"><div class="q-text">21 CFR Part 11이란 무엇이며 EU GMP Annex 11과 어떤 차이가 있나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span></div></div></div><div class="qa-card"><div class="q-num">Q50</div><div class="q-body"><div class="q-text">"기록되지 않은 것은 하지 않은 것이다"라는 GMP 원칙에 대해 본인의 생각을 말해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F5F3FF;color:#5B21B6">데이터·문서화</span></div></div></div><div class="qa-card"><div class="q-num">Q51</div><div class="q-body"><div class="q-text">상사가 GMP 규정에 어긋나거나 불합리한 지시를 한다면 어떻게 대처하겠습니까?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2025.11</span><span class="badge badge-co">HK이노엔 2026.04</span><span class="badge badge-co">지씨셀 2026.03</span><span class="badge badge-co">종근당 2025.09</span></div></div></div><div class="qa-card"><div class="q-num">Q52</div><div class="q-body"><div class="q-text">동료가 SOP와 다르게 작업하는 것을 목격했다면 어떻게 하겠습니까?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span></div></div></div><div class="qa-card"><div class="q-num">Q53</div><div class="q-body"><div class="q-text">QC 분석 결과가 계속 OOS로 나올 경우 어떻게 원인을 파악하고 해결하겠습니까? (상황 대처 질문)</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">HK이노엔 2025.06</span></div></div></div><div class="qa-card"><div class="q-num">Q54</div><div class="q-body"><div class="q-text">촉박한 납기 일정과 GMP 규정 준수 사이에서 갈등이 생긴다면 무엇을 우선시하겠습니까?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">대웅제약 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q55</div><div class="q-body"><div class="q-text">본인이 기록한 데이터에 오류가 있음을 나중에 발견했을 때 어떻게 하겠습니까?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span></div></div></div><div class="qa-card"><div class="q-num">Q56</div><div class="q-body"><div class="q-text">상사가 많은 양의 업무를 지시한다면 어떻게 하겠습니까? 동기가 본인의 실수를 덮어줬다면?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">지씨셀 2026.03</span></div></div></div><div class="qa-card"><div class="q-num">Q57</div><div class="q-body"><div class="q-text">스트레스는 어떻게 해소하며, 팀 내 갈등이 생겼을 때 어떻게 해결하나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2025.08</span><span class="badge badge-co">대웅제약 2026.04</span><span class="badge badge-co">종근당 2025.09</span><span class="badge badge-co">녹십자 2025.03</span></div></div></div><div class="qa-card"><div class="q-num">Q58</div><div class="q-body"><div class="q-text">리더형인지 팔로워형인지? 본인만의 소통방식 강점은 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2025.08</span></div></div></div><div class="qa-card"><div class="q-num">Q59</div><div class="q-body"><div class="q-text">본인이 생각하는 "좋은 품질"의 의약품이란 무엇인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span></div></div></div><div class="qa-card"><div class="q-num">Q60</div><div class="q-body"><div class="q-text">QA/QC 직무는 반복적인 업무가 많을 수 있는데, 어떻게 동기부여하고 성장해 나갈 계획인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span></div></div></div><div class="qa-card"><div class="q-num">Q61</div><div class="q-body"><div class="q-text">어려운 업무나 회사에 큰 손해를 끼칠 수 있는 고난도 업무도 무리 없이 수행할 수 있나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">동아ST 2025.08</span></div></div></div><div class="qa-card"><div class="q-num">Q62</div><div class="q-body"><div class="q-text">최근 제약·바이오 트렌드 상황이 어떻게 흘러가고 있다고 생각하나요? 대졸 생산직의 역할은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#FEF2F2;color:#991B1B">상황대처·인성</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">동아ST 2026.05</span></div></div></div><div class="qa-card"><div class="q-num">Q63</div><div class="q-body"><div class="q-text">생산/품질 직무에 지원한 이유와 본인이 이 직무에 적합한 이유를 함께 말해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span></div></div></div><div class="qa-card"><div class="q-num">Q64</div><div class="q-body"><div class="q-text">야간근무·교대근무·주말근무가 있는데 가능한가요? 어떻게 대처할 계획인가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2024.10</span><span class="badge badge-co">셀트리온 2025.08</span><span class="badge badge-co">종근당 2026.04</span></div></div></div><div class="qa-card"><div class="q-num">Q65</div><div class="q-body"><div class="q-text">10년 후 어떤 생산/품질 전문가가 되고 싶으신가요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span></div></div></div><div class="qa-card"><div class="q-num">Q66</div><div class="q-body"><div class="q-text">우리 회사에 대해 알고 있는 것을 말해보세요. 자사 제품(파이프라인)을 알고 있나요?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2022.07</span><span class="badge badge-co">한미약품 2024.01</span></div></div></div><div class="qa-card"><div class="q-num">Q67</div><div class="q-body"><div class="q-text">본인을 뽑아야 하는 이유를 말해보세요. 다른 지원자와 차별화되는 특별한 강점은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">삼성바이오로직스 2025.01</span><span class="badge badge-co">한미약품 2026.02</span></div></div></div><div class="qa-card"><div class="q-num">Q68</div><div class="q-body"><div class="q-text">한미약품 바이오플랜트의 기술 "LAPSCOVERY"에 대해 아는 점을 말해보세요. (한미약품 지원자 필수)</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">한미약품 2025.09</span></div></div></div><div class="qa-card"><div class="q-num">Q69</div><div class="q-body"><div class="q-text">배양(USP)과 정제(DSP) 중 어떤 업무를 하고 싶은가요? 그 이유는? (바이오 생산 지원자 필수)</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">셀트리온 2025.01</span></div></div></div><div class="qa-card"><div class="q-num">Q70</div><div class="q-body"><div class="q-text">지역 근무(오창·천안·화순·예산 등 공장 지역)에 대한 적응 의지와 거주 계획은?</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span><span class="badge badge-real">실제기출</span><span class="badge badge-co">종근당 2026.03</span><span class="badge badge-co">녹십자 2025.07</span><span class="badge badge-co">유한양행 2025.01</span></div></div></div><div class="qa-card"><div class="q-num">Q71</div><div class="q-body"><div class="q-text">마지막으로 하고 싶은 말이나 회사/직무에 대해 깊이 있는 질문을 해보세요.</div><div class="q-tags"><span class="badge badge-cat" style="background:#F0F9FF;color:#075985">지원동기·직무이해</span></div></div></div></div>
+  <div class="qa-list" id="qaGrid"></div>
   <div class="no-result" id="qaNoResult" style="display:none">검색 결과가 없습니다.</div>
 
   <!-- ADD -->
   <div class="add-toggle" id="addToggle" onclick="toggleAdd()">
-    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="1.4"></circle><path d="M7.5 4.5v6M4.5 7.5h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg>
+    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 4.5v6M4.5 7.5h6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
     질문 추가하기
-    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2.5 4.5l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"></path></svg>
+    <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2.5 4.5l4 4 4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
   </div>
   <div class="add-panel" id="addPanel" style="display:none">
     <div class="add-panel-title">새 질문 추가</div>
@@ -614,502 +614,19 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ══ GLOSSARY ════════════════════════════════════════ -->
 <div id="tab-gloss" class="section">
   <div class="search-wrap">
-    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"></circle><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
     <input class="search-box" type="text" id="glossSearch" placeholder="용어 검색  (예: CAPA, 배양기, Validation)..." oninput="filterGloss()">
   </div>
   <div class="filter-bar" id="glossFilterBar">
-    <button class="chip active" onclick="setGlossFilter(&#39;전체&#39;)">전체</button>
-    <button class="chip" onclick="setGlossFilter(&#39;공통 GMP&#39;)">공통 GMP</button>
-    <button class="chip" onclick="setGlossFilter(&#39;바이오 공정&#39;)">바이오 공정</button>
-    <button class="chip" onclick="setGlossFilter(&#39;품질·분석&#39;)">품질·분석</button>
-    <button class="chip" onclick="setGlossFilter(&#39;규제·문서&#39;)">규제·문서</button>
-    <button class="chip" onclick="setGlossFilter(&#39;설비·시설&#39;)">설비·시설</button>
+    <button class="chip active" onclick="setGlossFilter('전체')">전체</button>
+    <button class="chip" onclick="setGlossFilter('공통 GMP')">공통 GMP</button>
+    <button class="chip" onclick="setGlossFilter('바이오 공정')">바이오 공정</button>
+    <button class="chip" onclick="setGlossFilter('품질·분석')">품질·분석</button>
+    <button class="chip" onclick="setGlossFilter('규제·문서')">규제·문서</button>
+    <button class="chip" onclick="setGlossFilter('설비·시설')">설비·시설</button>
   </div>
-  <div id="glossCount" style="font-size:.75rem;color:var(--ink3);margin-bottom:.875rem">69개 용어</div>
-  <div id="glossGrid"><div class="alpha-divider">A</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Airlock/Pass-box</span>
-        <span class="gloss-full">Airlock / Pass-box</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">에어락/패스박스</div>
-      <div class="gloss-desc">Airlock: 등급이 다른 청정 구역 출입 완충 공간. Pass-box: 소형 물품 전달 창구. 양쪽 문이 동시에 열리지 않도록 Interlocking 장치 필수. EU GMP Annex 1 필수 구조</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">ALCOA++</span>
-        <span class="gloss-full">Attributable·Legible·Contemporaneous·Original·Accurate + Complete·Consistent·Enduring·Available·Traceable</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">데이터 무결성 9원칙</div>
-      <div class="gloss-desc">DI 핵심 기준. CORE 5: A·L·C·O·A. 확장 4(++): Complete·Consistent·Enduring·Available. PIC/S PI-041에서 Traceable 추가 → ALCOA++ 탭에서 상세 확인</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Alert/Action Limit</span>
-        <span class="gloss-full">Alert Limit / Action Limit</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">경고 한계/조치 한계</div>
-      <div class="gloss-desc">EM·용수 모니터링 시 규격 이탈 전 선제 감지 기준. Specification &gt; Action Limit &gt; Alert Limit. Alert 초과 시 조사 시작, Action 초과 시 즉각 조치</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">AMV</span>
-        <span class="gloss-full">Analytical Method Validation</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">시험법 밸리데이션</div>
-      <div class="gloss-desc">시험법의 특이성·직선성·정확성·정밀성·LOD/LOQ·범위·완건성 입증. ICH Q2(R1) 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">API</span>
-        <span class="gloss-full">Active Pharmaceutical Ingredient</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">원료의약품</div>
-      <div class="gloss-desc">의약품에서 실제 약리 효과를 나타내는 성분. → 바이오의약품에서는 DS(Drug Substance)로 표기. 국내 현장에서는 "원제"라고도 부름</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">APQR/PQR</span>
-        <span class="gloss-full">Annual Product Quality Review</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">연간 제품 품질 검토</div>
-      <div class="gloss-desc">매년 제품별 전체 배치 데이터(시험 결과, 일탈, OOS, CAPA, 안정성 등)를 통계 분석해 공정 관리 상태 확인. ICH Q10 요건</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Audit Trail</span>
-        <span class="gloss-full">Audit Trail</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">감사 추적</div>
-      <div class="gloss-desc">전자 시스템에서 누가·언제·무엇을 입력/수정/삭제했는지 자동 기록. 21 CFR Part 11·Annex 11 필수 요건. 비활성화·삭제 절대 금지</div></div><div class="alpha-divider">B</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Bioburden</span>
-        <span class="gloss-full">Bioburden</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">생물부하</div>
-      <div class="gloss-desc">멸균 전 존재하는 살아있는 미생물의 수. 무균 제조 공정 밸리데이션의 핵심 지표</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Bioreactor</span>
-        <span class="gloss-full">Bioreactor</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">배양기/바이오리액터</div>
-      <div class="gloss-desc">동물세포·미생물을 대량 증식시키기 위해 온도·pH·DO(용존산소) 등을 제어하는 핵심 생산 설비. USP 중심 장비. SUS 도입 활발</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">BMR</span>
-        <span class="gloss-full">Batch Manufacturing Record</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">배치 기록서</div>
-      <div class="gloss-desc">"배치의 일대기". 특정 배치 제조 전 과정을 담은 문서. 배치 출하 결정의 핵심 근거. 소급 서명·수정액 사용은 DI 위반</div></div><div class="alpha-divider">C</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Calibration</span>
-        <span class="gloss-full">Calibration</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">검교정</div>
-      <div class="gloss-desc">측정 기기가 표준값에 정확한지 기준기와 비교 확인. 유효기간 만료 기기 사용은 GMP 위반. 현장에서 "Cal"로 줄여 부름</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CAPA</span>
-        <span class="gloss-full">Corrective Action and Preventive Action</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">시정 및 예방조치</div>
-      <div class="gloss-desc">CA(시정조치): 발생한 문제의 근본 원인 제거. PA(예방조치): 잠재 문제 원인 사전 제거. "교육 강화"만으로 종결하는 것은 불완전한 CAPA</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CCR</span>
-        <span class="gloss-full">Change Control Request</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">변경 관리 요청서</div>
-      <div class="gloss-desc">공정·원자재·설비·SOP 등의 변경을 공식 신청하는 문서. 변경관리 프로세스의 시작점. 승인 없이 변경 실행은 중대한 GMP 위반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">cGMP</span>
-        <span class="gloss-full">current Good Manufacturing Practice</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">현행 우수의약품제조관리기준</div>
-      <div class="gloss-desc">GMP에 'c(current)'가 붙어 최신 기준 반영 강조. FDA가 주로 사용하는 표현. 실질적으로 GMP와 동의어로 통용</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CIP/SIP</span>
-        <span class="gloss-full">Clean-In-Place / Steam-In-Place</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">제자리세척/제자리멸균</div>
-      <div class="gloss-desc">CIP: 설비 분해 없이 세척액 순환. SIP: 스팀으로 내부 멸균. 바이오 탱크·배관 적용. 일반적으로 CIP 후 SIP 순서</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CoA</span>
-        <span class="gloss-full">Certificate of Analysis</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">시험성적서</div>
-      <div class="gloss-desc">제품의 시험 결과와 규격 적합 여부를 공식 증명하는 문서. 원자재 수령·제품 출하 시 필수. 원본 시험 데이터와 100% 일치 필요</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Comparability</span>
-        <span class="gloss-full">Comparability Study</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">동등성 연구</div>
-      <div class="gloss-desc">바이오의약품 제조 변경 후 전후 제품의 동등성 입증 연구. 바이오시밀러 기업 필수. ICH Q5E 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CPV</span>
-        <span class="gloss-full">Continued Process Verification</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">지속적 공정 검증</div>
-      <div class="gloss-desc">밸리데이션 3단계 중 마지막. 상업 생산 중 공정이 지속적으로 관리 상태임을 통계적으로 입증. FDA Process Validation Guidance(2011) 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CQA/CPP</span>
-        <span class="gloss-full">Critical Quality Attribute / Critical Process Parameter</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">핵심품질특성/핵심공정변수</div>
-      <div class="gloss-desc">CQA: 제품 품질에 직결되는 핵심 속성. CPP: CQA 달성을 위해 반드시 제어해야 하는 공정 변수. QbD 적용 시 가장 먼저 정의·통제</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CSV</span>
-        <span class="gloss-full">Computer System Validation</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">컴퓨터 시스템 밸리데이션</div>
-      <div class="gloss-desc">GMP 관련 데이터를 다루는 전산 시스템에 요구. GAMP 5 가이드라인 기반. IQ/OQ/PQ 단계 수행. LIMS·ERP·SCADA 모두 CSV 대상</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">CTD</span>
-        <span class="gloss-full">Common Technical Document</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">국제공통기술문서</div>
-      <div class="gloss-desc">의약품 품목 허가를 위해 규제기관에 제출하는 통일된 문서 양식. 품질(Module 3)·비임상(Module 4)·임상(Module 5)으로 구성. RA·QA 직무 핵심 포맷</div></div><div class="alpha-divider">D</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Deviation</span>
-        <span class="gloss-full">Deviation</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">일탈</div>
-      <div class="gloss-desc">승인된 SOP·공정 파라미터·지시사항에서 예상치 못한 벗어남. 경미/중대/위기로 분류. 반드시 문서화. "사소해서 그냥 넘어가는" 일탈은 GMP 위반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">DI</span>
-        <span class="gloss-full">Data Integrity</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">데이터 무결성</div>
-      <div class="gloss-desc">데이터가 전체 수명주기(생성→처리→보관→검색→폐기)에 걸쳐 완전·일관·정확·신뢰할 수 있음을 보장. ALCOA++ 원칙 기반. 전 세계 규제기관의 최우선 실사 항목</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Differential Pressure</span>
-        <span class="gloss-full">Differential Pressure</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">차압</div>
-      <div class="gloss-desc">인접 구역 간 공기 압력 차이. 고청정도 구역은 양압(Positive Pressure). 봉쇄(Containment) 구역은 음압(Negative Pressure). 교차오염 방지의 핵심</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">DS/DP</span>
-        <span class="gloss-full">Drug Substance / Drug Product</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">원료의약품/완제의약품</div>
-      <div class="gloss-desc">바이오의약품 현장 표준 표기. DS(원제): 정제된 원료 의약품. DP(완제): 최종 제형으로 완성된 완제의약품. 화학합성의약품의 API/FP에 해당</div></div><div class="alpha-divider">E</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">EM</span>
-        <span class="gloss-full">Environmental Monitoring</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">환경 모니터링</div>
-      <div class="gloss-desc">청정 제조 구역의 공기 부유균·부유 입자·표면균·작업원 위생을 정기 측정·관리. 능동 공기 샘플링, 침강균 평판, 파티클 카운터, RODAC 접촉평판. Grade A/B/C/D 기준 상이</div></div><div class="alpha-divider">F</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">FMEA</span>
-        <span class="gloss-full">Failure Mode and Effect Analysis</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">고장 유형 및 영향 분석</div>
-      <div class="gloss-desc">잠재 실패 모드를 식별하고 RPN(심각도×발생도×검출도)으로 우선순위 결정. ICH Q9 QRM 핵심 도구</div></div><div class="alpha-divider">G</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">GDocP</span>
-        <span class="gloss-full">Good Documentation Practice</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">우수 문서화 관리 기준</div>
-      <div class="gloss-desc">GMP 문서화 핵심 원칙. ALCOA++ 기반. ※ GDP(Good Distribution Practice, 유통 관리)와 혼동 주의</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">GDP</span>
-        <span class="gloss-full">Good Distribution Practice</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">우수 유통 관리 기준</div>
-      <div class="gloss-desc">의약품 유통·보관·운송 전 과정 품질 보증 기준. 콜드체인 관리, 반품, 위변조 방지 포함. ※ Good Documentation Practice(GDocP)와 혼동 주의</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">GMP</span>
-        <span class="gloss-full">Good Manufacturing Practice</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">우수의약품제조관리기준</div>
-      <div class="gloss-desc">제품 품질·안전성·유효성 보장을 위한 제조 전반 최소 기준. 3대 목적: 오염 방지 / 혼동·착오 방지 / 품질 일관성 보장</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Gowning</span>
-        <span class="gloss-full">Gowning / Gowning Qualification</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">갱의/갱의 자격 평가</div>
-      <div class="gloss-desc">청정 구역 진입 시 등급에 맞는 무균복·고글·덧신을 엄격한 절차에 따라 착용. Gowning Qualification: 무균 작업자는 미생물 검사 주기적 통과 필요</div></div><div class="alpha-divider">H</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">HEPA</span>
-        <span class="gloss-full">High Efficiency Particulate Air Filter</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">고성능 공기 필터</div>
-      <div class="gloss-desc">0.3μm 이상 입자를 99.97% 이상 제거. 청정실·무균 제조 HVAC 시스템의 핵심. 주기적 필터 무결성 시험 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Hold Time</span>
-        <span class="gloss-full">Hold Time Study</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">체류 시간 평가</div>
-      <div class="gloss-desc">공정 중 대기 시간 동안 반제품 또는 세척 후 설비 품질이 저하되지 않는 최대 허용 시간 검증. Intermediate Hold Time + Cleaned Equipment Hold Time 모두 포함</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">HPLC</span>
-        <span class="gloss-full">High Performance Liquid Chromatography</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">고성능 액체 크로마토그래피</div>
-      <div class="gloss-desc">의약품 함량·관련물질·용출 시험에 가장 많이 쓰이는 기기. 역상 C18 컬럼 일반적. System Suitability 확인 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">HVAC</span>
-        <span class="gloss-full">Heating, Ventilation, and Air Conditioning</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">냉난방 공조 시스템</div>
-      <div class="gloss-desc">청정실 등급 유지(온도·습도·압력·환기 횟수)의 핵심 인프라. GMP 시설 밸리데이션 필수 항목</div></div><div class="alpha-divider">I</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">IPC</span>
-        <span class="gloss-full">In-Process Control</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">공정 중 관리</div>
-      <div class="gloss-desc">제조 중간 단계에서 품질 파라미터를 실시간 측정·관리. 예: 타정 중 경도·두께·중량 측정. 최종 시험과 함께 품질 보증의 양대 축</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">IQ/OQ/PQ</span>
-        <span class="gloss-full">Installation / Operational / Performance Qualification</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">설치·운전·성능 적격성 평가</div>
-      <div class="gloss-desc">IQ: 설비가 사양서대로 설치됨 확인. OQ: 설정 운전 범위에서 일관 작동 확인. PQ: 실제 제조 조건에서 수용 기준 충족 확인. IQ→OQ→PQ 순서 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Isolator/RABS</span>
-        <span class="gloss-full">Isolator / Restricted Access Barrier System</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">아이솔레이터/제한접근차단시스템</div>
-      <div class="gloss-desc">Isolator: 완전 밀폐형. RABS: 반밀폐형. EU GMP Annex 1(2022 개정)에서 도입 강력 권고. 오염 관리 전략(CCS)의 핵심 설비</div></div><div class="alpha-divider">K</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">KGMP</span>
-        <span class="gloss-full">Korean Good Manufacturing Practice</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">국내 우수의약품제조관리기준</div>
-      <div class="gloss-desc">식약처(MFDS) 고시. PIC/S GMP 가이드를 준용. 한국은 PIC/S 회원국</div></div><div class="alpha-divider">L</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">LAL/rFC</span>
-        <span class="gloss-full">Limulus Amebocyte Lysate / recombinant Factor C</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">내독소 시험법</div>
-      <div class="gloss-desc">내독소(그람 음성균 유래 LPS) 검출. LAL: 투구게 혈액 유래 기존 방법. rFC: 동물 보호 이슈로 전환 추세. WFI 기준 &lt;0.25 EU/mL</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">LIMS</span>
-        <span class="gloss-full">Laboratory Information Management System</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">실험실 정보 관리 시스템</div>
-      <div class="gloss-desc">시험 요청·수행·결과·CoA 발행 전 과정을 전산화. 21 CFR Part 11 요건 충족 필수. Audit Trail·전자 서명 지원</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Line Clearance</span>
-        <span class="gloss-full">Line Clearance</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">라인 클리어런스</div>
-      <div class="gloss-desc">이전 배치 작업의 제품·자재·문서가 다음 작업에 섞이지 않도록 작업장·설비를 완벽히 비우고 점검. 교차오염·혼동(Mix-up) 방지. 매 배치 전환 시 수행</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Lyophilization</span>
-        <span class="gloss-full">Lyophilization (Freeze-Drying)</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">동결건조</div>
-      <div class="gloss-desc">액상 DP를 얼린 후 진공 상태에서 수분 승화. 3단계: Freezing → Primary Drying(승화) → Secondary Drying(탈착). 단백질 의약품 안정성 확보</div></div><div class="alpha-divider">M</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">MCB/WCB</span>
-        <span class="gloss-full">Master Cell Bank / Working Cell Bank</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">마스터·제조용 세포은행</div>
-      <div class="gloss-desc">바이오의약품 생산의 출발 물질. MCB: 장기 보존용. WCB: 실제 생산용. 특성 분석·무균 관리가 GMP의 핵심 출발점</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Mycoplasma</span>
-        <span class="gloss-full">Mycoplasma Test</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">마이코플라즈마 시험</div>
-      <div class="gloss-desc">세포 배양 중 오염원 검출. 무균시험·내독소시험과 함께 바이오의약품 3대 오염 관리 지표. 0.2μm 필터 통과 → 별도 시험 필수</div></div><div class="alpha-divider">O</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">OOS</span>
-        <span class="gloss-full">Out of Specification</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">기준일탈</div>
-      <div class="gloss-desc">시험 결과가 허가 규격을 벗어난 경우. FDA 2006 가이던스에 따른 Phase I/II 조사 절차 준수 필수. 조사 없이 결과 삭제는 DI 위반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">OOT</span>
-        <span class="gloss-full">Out of Trend</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">추세 이탈</div>
-      <div class="gloss-desc">규격은 통과했지만 과거 데이터 대비 비정상적 추세. 예방적 선행 조사 및 CAPA 대상. SPC와 연계</div></div><div class="alpha-divider">P</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">PIC/S</span>
-        <span class="gloss-full">Pharmaceutical Inspection Co-operation Scheme</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">의약품 제조 감시 국제 협력 기구</div>
-      <div class="gloss-desc">회원국 간 GMP 기준 일치·실사 상호 인정. 한국(MFDS) 회원국. PI-041(DI 최신 기준) 발행. PIC/S 가입이 글로벌 수출의 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">PM</span>
-        <span class="gloss-full">Preventive Maintenance</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">예방 보전</div>
-      <div class="gloss-desc">설비·기기를 고장 전에 정기적으로 점검·교체하는 활동. PM 이력은 GMP 기록 대상</div></div><div class="alpha-divider">Q</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">QbD</span>
-        <span class="gloss-full">Quality by Design</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">설계기반 품질고도화</div>
-      <div class="gloss-desc">기획 단계부터 선제적으로 품질을 설계에 반영. 최근 식약처·FDA·EMA 실사에서 가장 강조되는 키워드. ICH Q8~Q11 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">QRM</span>
-        <span class="gloss-full">Quality Risk Management</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">품질 위험 관리</div>
-      <div class="gloss-desc">ICH Q9 기반. FMEA·HACCP·Fault Tree 활용. RPN = 심각도×발생도×검출도. 높을수록 우선 개선</div></div><div class="alpha-divider">R</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">RCA</span>
-        <span class="gloss-full">Root Cause Analysis</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">근본 원인 분석</div>
-      <div class="gloss-desc">일탈·OOS 발생 시 진짜 원인을 찾는 심층 분석. 주요 도구: 5Why, Fishbone Diagram, Is/Is Not 분석. CAPA 수립의 선행 단계</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Recall</span>
-        <span class="gloss-full">Recall</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">제품 회수</div>
-      <div class="gloss-desc">시판 제품의 시장 회수. Class I(심각 건강 위해), II(일시적 위해), III(규정 위반) 분류. Mock Recall(모의 회수 훈련) 정기 수행 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Reprocessing/Reworking</span>
-        <span class="gloss-full">Reprocessing / Reworking</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">재처리/재작업</div>
-      <div class="gloss-desc">Reprocessing: 기존 승인 공정 내 재처리 — 허용 가능(조건부). Reworking: 승인되지 않은 대체 공정 — 원칙적 금지. 두 개념 혼동은 면접 감점</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Resin</span>
-        <span class="gloss-full">Resin</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">레진</div>
-      <div class="gloss-desc">DSP 크로마토그래피 정제에서 목적 단백질만 선택적으로 결합·분리하는 구슬 형태 물질. 항체 1차 포획에는 Protein A Resin 표준. Resin Lifetime 관리 중요</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">RO/EDI</span>
-        <span class="gloss-full">Reverse Osmosis / Electrodeionization</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">역삼투/전기탈이온</div>
-      <div class="gloss-desc">제약 용수 제조 핵심 설비. 수처리 계통도: 원수 → RO → EDI → 정제수(PW) → 증류/멤브레인 → WFI</div></div><div class="alpha-divider">S</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Scale-up/down</span>
-        <span class="gloss-full">Scale-up / Scale-down Model</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">스케일업/스케일다운</div>
-      <div class="gloss-desc">Scale-up: Lab → Commercial scale로 공정 규모 확대. Scale-down Model: 상업용 공정을 소규모로 재현해 문제 해결에 활용</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Self-Inspection</span>
-        <span class="gloss-full">Self-Inspection (Internal Audit)</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">자율점검/내부감사</div>
-      <div class="gloss-desc">사내 독립 인원(주로 QA)이 주기적으로 수행하는 GMP 점검. EU GMP Chapter 9 공식 용어. "Mock Audit(모의 실사)"이라고도 부름</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">SMF</span>
-        <span class="gloss-full">Site Master File</span>
-        <span class="gloss-cat-badge" style="background:#F5F3FF;color:#5B21B6">규제·문서</span>
-      </div>
-      <div class="gloss-kr">제조소 마스터 파일</div>
-      <div class="gloss-desc">제조 시설의 전반적인 GMP 관련 정보(시설 개요·조직·QMS·제품 목록)를 담은 문서. PIC/S 실사 시 필수 제출. "제조소의 명함"</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">SOP</span>
-        <span class="gloss-full">Standard Operating Procedure</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">표준작업절차서</div>
-      <div class="gloss-desc">특정 작업을 일관되고 정확하게 수행하기 위한 단계별 지침. "SOP에 없으면 하면 안 된다." 주기적 검토·개정 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">SPC</span>
-        <span class="gloss-full">Statistical Process Control</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">통계적 공정 관리</div>
-      <div class="gloss-desc">공정 데이터를 통계적으로 분석해 관리 상태(In-Control) 여부 판단. OOT 탐지, 공정 최적화의 기반</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Spec</span>
-        <span class="gloss-full">Specification</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">규격</div>
-      <div class="gloss-desc">제품·원자재·중간체가 충족해야 하는 품질 기준(항목별 허용 범위). 규격 이탈 = OOS</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Stability</span>
-        <span class="gloss-full">Stability Study</span>
-        <span class="gloss-cat-badge" style="background:#FEF9EC;color:#92400E">품질·분석</span>
-      </div>
-      <div class="gloss-kr">안정성 시험</div>
-      <div class="gloss-desc">저장 조건에서 시간에 따른 의약품 품질 변화 평가. ICH Q1: 장기보존(25℃/60%RH), 가속(40℃/75%RH), 가혹. 유효기간·보관 조건 설정 근거</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">SUS</span>
-        <span class="gloss-full">Single-Use System</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">일회용 시스템</div>
-      <div class="gloss-desc">배양기·백·튜브 등 제품 접촉 부분을 일회용 플라스틱으로 대체. 세척 밸리데이션·교차오염 위험 원천 차단. 삼성바이오·셀트리온 등 적극 도입</div></div><div class="alpha-divider">T</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">Tech Transfer</span>
-        <span class="gloss-full">Technology Transfer</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">기술 이전</div>
-      <div class="gloss-desc">R&amp;D 공정을 상업용 생산 시설로 옮겨 동일 품질로 생산되도록 정착시키는 과정. CDMO 기업의 핵심 역량. Tech Transfer Protocol·Report 필수</div></div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">TFF/UF-DF</span>
-        <span class="gloss-full">Tangential Flow Filtration / Ultrafiltration-Diafiltration</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">접선흐름여과/한외여과-완충액교환</div>
-      <div class="gloss-desc">DSP에서 단백질 농축·완충액 교환에 사용하는 막여과 방식. TFF는 막힘 최소화. UF=농축, DF=완충액 교환</div></div><div class="alpha-divider">U</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">USP/DSP</span>
-        <span class="gloss-full">Upstream Process / Downstream Process</span>
-        <span class="gloss-cat-badge" style="background:#EAF3ED;color:#2D6A4F">바이오 공정</span>
-      </div>
-      <div class="gloss-kr">상류공정/하류공정</div>
-      <div class="gloss-desc">USP(상류공정): 세포 배양을 통해 목적 단백질 생산. DSP(하류공정): 불순물 제거·정제·농축. 셀트리온 면접 "배양과 정제 중 어디 가고 싶나?"의 핵심</div></div><div class="alpha-divider">V</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">VMP</span>
-        <span class="gloss-full">Validation Master Plan</span>
-        <span class="gloss-cat-badge" style="background:#EAF1F8;color:#1B4F72">공통 GMP</span>
-      </div>
-      <div class="gloss-kr">밸리데이션 종합 계획서</div>
-      <div class="gloss-desc">제조소 전체의 밸리데이션 정책, 조직, 수행 대상, 일정을 총괄하는 최상위 문서. 규제기관 실사 시 첫 번째로 요청되는 문서 중 하나</div></div><div class="alpha-divider">W</div><div class="gloss-card">
-      <div class="gloss-head">
-        <span class="gloss-abbr">WFI</span>
-        <span class="gloss-full">Water for Injection</span>
-        <span class="gloss-cat-badge" style="background:#FFF7ED;color:#C2410C">설비·시설</span>
-      </div>
-      <div class="gloss-kr">주사용수</div>
-      <div class="gloss-desc">주사제·바이오의약품 제조 필수 용수. 내독소 기준 &lt;0.25 EU/mL. 증류 또는 멤브레인 방식으로 제조. 순환 시스템으로 관리</div></div></div>
+  <div id="glossCount" style="font-size:.75rem;color:var(--ink3);margin-bottom:.875rem"></div>
+  <div id="glossGrid"></div>
 </div>
 
 <!-- ══ ALCOA ═══════════════════════════════════════════ -->
@@ -1122,106 +639,16 @@ footer strong { color: var(--ink2); font-weight: 600; }
   </div>
 
   <div class="section-label">기본 5원칙 — ALCOA Core</div>
-  <div class="alcoa-grid" id="alcoaCore"><div class="alcoa-card alcoa-a1"><span class="badge-core">CORE</span>
-        <div class="ac-letter">A</div>
-        <div class="ac-name">Attributable</div>
-        <div class="ac-kr">귀속 가능성</div>
-        <div class="ac-desc">데이터를 생성하거나 수집한 사람이 누구인지, 언제인지 명확히 식별할 수 있어야 합니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>모든 기록에 서명+날짜 필수</li><li>공유 계정(공용 ID) 사용 금지</li><li>다른 사람 대신 서명 금지</li><li>컴퓨터 시스템 개인 로그인 필수</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 팀장이 부재 직원 대신 서명하거나, 공용 계정을 여러 명이 함께 사용</div></div><div class="alcoa-card alcoa-l"><span class="badge-core">CORE</span>
-        <div class="ac-letter">L</div>
-        <div class="ac-name">Legible</div>
-        <div class="ac-kr">판독 가능성</div>
-        <div class="ac-desc">기록은 누구나 읽을 수 있어야 하며, 보관 기간 동안 지속적으로 판독 가능해야 합니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>볼펜 또는 불지워지는 잉크 사용</li><li>연필 사용 절대 금지</li><li>열전사 프린트 주의 (시간 지나면 흐려짐)</li><li>보관 기간 내내 판독 가능해야 함</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 연필로 기록하거나, 열전사 용지가 10년 보관 후 판독 불가</div></div><div class="alcoa-card alcoa-c"><span class="badge-core">CORE</span>
-        <div class="ac-letter">C</div>
-        <div class="ac-name">Contemporaneous</div>
-        <div class="ac-kr">동시 기록성</div>
-        <div class="ac-desc">데이터는 행위가 수행된 시점에 즉시 기록되어야 합니다. 소급 기록은 허용되지 않습니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>작업 즉시 기록 (나중에 옮겨 쓰기 금지)</li><li>미리 기록(Pre-recording) 금지</li><li>기억 의존 소급 기록 금지</li><li>타임스탬프 자동화 시스템 활용</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 당일 작업을 퇴근 전에 한꺼번에 기록하거나, 다음날 기억으로 전날 기록 작성</div></div><div class="alcoa-card alcoa-o"><span class="badge-core">CORE</span>
-        <div class="ac-letter">O</div>
-        <div class="ac-name">Original</div>
-        <div class="ac-kr">원본성</div>
-        <div class="ac-desc">처음 기록된 형태의 데이터(원본 또는 인증 사본)가 보존되어야 합니다. 원본 폐기는 금지.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>기기 출력 raw 파일 보존</li><li>수기 기록 전산 이기 후 원본 폐기 금지</li><li>크로마토그램 원파일 보관</li><li>전자 raw data 영구 보존</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> pH 미터 출력값을 노트에 옮겨 적은 후 원본 출력물을 버리는 경우</div></div><div class="alcoa-card alcoa-a2"><span class="badge-core">CORE</span>
-        <div class="ac-letter">A</div>
-        <div class="ac-name">Accurate</div>
-        <div class="ac-kr">정확성</div>
-        <div class="ac-desc">기록된 데이터는 실제 관찰·측정값을 정확하게 반영해야 합니다. 의도적 조작은 금지.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>실제 측정값 그대로 기록</li><li>반올림 처리 시 기준 명시</li><li>단위(g, mL, %) 정확히 기재</li><li>OOS 결과 임의 수정 금지</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 규격 통과를 위해 결과값을 소수점에서 조작하거나 OOS 결과를 합격으로 수정</div></div></div>
+  <div class="alcoa-grid" id="alcoaCore"></div>
 
   <div class="section-label">확장 원칙 — ++ Extension (PIC/S PI-041 / EMA Reflection Paper)</div>
-  <div class="alcoa-grid" id="alcoaPlus"><div class="alcoa-card alcoa-p1"><span class="badge-plus">++ 확장원칙</span>
-        <div class="ac-letter">C</div>
-        <div class="ac-name">Complete</div>
-        <div class="ac-kr">완전성</div>
-        <div class="ac-desc">기록은 모든 관련 정보를 포함해야 합니다. 선택적 데이터 보고 금지.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>모든 시험 결과 기록 (합격만 선택 금지)</li><li>중단된 시험도 기록 및 이유 명시</li><li>취소/무효 행위도 기록</li><li>빈칸 없이 완성된 기록</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 여러 번 시험해서 합격 결과만 기록하고 실패 결과 삭제 ("Cherry Picking")</div></div><div class="alcoa-card alcoa-p2"><span class="badge-plus">++ 확장원칙</span>
-        <div class="ac-letter">C</div>
-        <div class="ac-name">Consistent</div>
-        <div class="ac-kr">일관성</div>
-        <div class="ac-desc">기록의 모든 요소(날짜·시간·순서)가 논리적으로 일관성을 가져야 합니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>시간 순서 논리적 일관성</li><li>동일 시간에 다른 장소 서명 불가</li><li>날짜 형식 통일</li><li>교정된 시계/타임스탬프 사용</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 같은 시간에 두 곳에 서명이 있거나, 결과 기록 시간이 시험 수행 시간보다 이른 경우</div></div><div class="alcoa-card alcoa-p3"><span class="badge-plus">++ 확장원칙</span>
-        <div class="ac-letter">E</div>
-        <div class="ac-name">Enduring</div>
-        <div class="ac-kr">지속성/내구성</div>
-        <div class="ac-desc">기록은 법적 보관 기간 동안 손상되지 않은 상태로 보존되어야 합니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>볼펜으로 기록 (연필·수성펜 금지)</li><li>적절한 보관 환경 유지</li><li>전자 기록 백업 및 마이그레이션</li><li>보관 기간: 일반적으로 유효기간+1년 이상</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 연필로 기록하거나, 시스템 교체 후 구버전 데이터 마이그레이션 안 해 접근 불가</div></div><div class="alcoa-card alcoa-p4"><span class="badge-plus">++ 확장원칙</span>
-        <div class="ac-letter">A</div>
-        <div class="ac-name">Available</div>
-        <div class="ac-kr">가용성</div>
-        <div class="ac-desc">기록은 검토·감사·실사 요청 시 즉시 접근 가능해야 합니다.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>규제기관 요청 시 즉시 제공 가능</li><li>Audit Trail 항상 활성화</li><li>전자 기록 정기 백업 및 복구 테스트</li><li>시스템 마이그레이션 후 접근성 확인</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> Audit Trail을 무단으로 비활성화하거나, 접근 권한 문제로 즉시 제공 불가</div></div><div class="alcoa-card alcoa-tr"><span class="badge-trace">PIC/S 최신 기준</span>
-        <div class="ac-letter">T</div>
-        <div class="ac-name">Traceable</div>
-        <div class="ac-kr">추적성</div>
-        <div class="ac-desc">데이터의 전체 수명주기(생성→처리→전달→저장→폐기)를 end-to-end로 추적할 수 있어야 합니다. 원본 raw data부터 최종 보고서까지 모든 연결 고리가 끊기지 않아야 합니다. PIC/S PI-041 최신 가이드라인에서 핵심 강조.</div>
-        <div class="ac-examples">
-          <div class="ac-ex-label">실무 포인트</div>
-          <ul><li>raw data → 계산 → CoA까지 역추적 가능</li><li>배치 번호로 모든 제조 이력 역추적 가능</li><li>분석자→검토자→승인자 체인 기록</li><li>변경 이력(Revision History) 완전 유지</li></ul>
-        </div>
-        <div class="ac-violation"><strong>⚠️ 위반 사례:</strong> 최종 보고서 수치를 원본 기기 데이터로 역추적 불가하거나, 중간 계산 과정 기록 누락</div></div></div>
+  <div class="alcoa-grid" id="alcoaPlus"></div>
 
   <div class="table-wrap">
     <div class="table-head">ALCOA++ 요약표 — 면접 전 반드시 암기</div>
     <table class="data-table">
       <thead><tr><th>구분</th><th>원칙 (영문)</th><th>한국어</th><th>핵심 의미</th><th>대표 위반 사례</th></tr></thead>
-      <tbody id="alcoaTable"><tr><td><span style="background:var(--ac-light);color:var(--ac);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">CORE</span> Attributable (귀속 가능성)</td><td>Attributable</td><td style="font-size:.78rem">데이터를 생성하거나 수집한 사람이 누구인지, 언제인지 명확히 식별할 수 있어야 합니다....</td><td style="font-size:.78rem">팀장이 부재 직원 대신 서명하거나, 공용 계정을 여러 명이 함께 사용</td></tr><tr><td><span style="background:var(--ac-light);color:var(--ac);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">CORE</span> Legible (판독 가능성)</td><td>Legible</td><td style="font-size:.78rem">기록은 누구나 읽을 수 있어야 하며, 보관 기간 동안 지속적으로 판독 가능해야 합니다....</td><td style="font-size:.78rem">연필로 기록하거나, 열전사 용지가 10년 보관 후 판독 불가</td></tr><tr><td><span style="background:var(--ac-light);color:var(--ac);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">CORE</span> Contemporaneous (동시 기록성)</td><td>Contemporaneous</td><td style="font-size:.78rem">데이터는 행위가 수행된 시점에 즉시 기록되어야 합니다. 소급 기록은 허용되지 않습니다....</td><td style="font-size:.78rem">당일 작업을 퇴근 전에 한꺼번에 기록하거나, 다음날 기억으로 전날 기록 작성</td></tr><tr><td><span style="background:var(--ac-light);color:var(--ac);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">CORE</span> Original (원본성)</td><td>Original</td><td style="font-size:.78rem">처음 기록된 형태의 데이터(원본 또는 인증 사본)가 보존되어야 합니다. 원본 폐기는 금지....</td><td style="font-size:.78rem">pH 미터 출력값을 노트에 옮겨 적은 후 원본 출력물을 버리는 경우</td></tr><tr><td><span style="background:var(--ac-light);color:var(--ac);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">CORE</span> Accurate (정확성)</td><td>Accurate</td><td style="font-size:.78rem">기록된 데이터는 실제 관찰·측정값을 정확하게 반영해야 합니다. 의도적 조작은 금지....</td><td style="font-size:.78rem">규격 통과를 위해 결과값을 소수점에서 조작하거나 OOS 결과를 합격으로 수정</td></tr><tr><td><span style="background:var(--am-light);color:var(--am);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">++</span> Complete (완전성)</td><td>Complete</td><td style="font-size:.78rem">기록은 모든 관련 정보를 포함해야 합니다. 선택적 데이터 보고 금지....</td><td style="font-size:.78rem">여러 번 시험해서 합격 결과만 기록하고 실패 결과 삭제 ("Cherry Picking")</td></tr><tr><td><span style="background:var(--am-light);color:var(--am);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">++</span> Consistent (일관성)</td><td>Consistent</td><td style="font-size:.78rem">기록의 모든 요소(날짜·시간·순서)가 논리적으로 일관성을 가져야 합니다....</td><td style="font-size:.78rem">같은 시간에 두 곳에 서명이 있거나, 결과 기록 시간이 시험 수행 시간보다 이른 경우</td></tr><tr><td><span style="background:var(--am-light);color:var(--am);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">++</span> Enduring (지속성/내구성)</td><td>Enduring</td><td style="font-size:.78rem">기록은 법적 보관 기간 동안 손상되지 않은 상태로 보존되어야 합니다....</td><td style="font-size:.78rem">연필로 기록하거나, 시스템 교체 후 구버전 데이터 마이그레이션 안 해 접근 불가</td></tr><tr><td><span style="background:var(--am-light);color:var(--am);font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700">++</span> Available (가용성)</td><td>Available</td><td style="font-size:.78rem">기록은 검토·감사·실사 요청 시 즉시 접근 가능해야 합니다....</td><td style="font-size:.78rem">Audit Trail을 무단으로 비활성화하거나, 접근 권한 문제로 즉시 제공 불가</td></tr><tr><td><span style="background:#EDE9FE;color:#5B21B6;font-size:.65rem;padding:1px 5px;border-radius:3px;font-weight:700;border:1px solid #C4B5FD">PIC/S 최신</span> Traceable (추적성)</td><td>Traceable</td><td style="font-size:.78rem">데이터의 전체 수명주기(생성→처리→전달→저장→폐기)를 end-to-end로 추적할 수 있어야 합니다...</td><td style="font-size:.78rem">최종 보고서 수치를 원본 기기 데이터로 역추적 불가하거나, 중간 계산 과정 기록 누락</td></tr></tbody>
+      <tbody id="alcoaTable"></tbody>
     </table>
   </div>
 
@@ -1259,92 +686,8 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <!-- ══ COMPANY ══════════════════════════════════════════ -->
 <div id="tab-co" class="section">
   <p style="font-size:.84rem;color:var(--ink2);margin-bottom:1.25rem;line-height:1.8">잡플래닛 등 면접 후기 사이트에 올라온 실제 면접 참가자들의 기출 질문입니다. <span style="background:var(--am-light);color:var(--am);font-size:.72rem;font-weight:600;padding:1px 6px;border-radius:3px;border:1px solid var(--am-border)">직무 핵심</span> 표시는 직무 지식 관련 질문입니다.</p>
-  <div class="co-tabs" id="coTabs"><button class="co-btn active">삼성바이오로직스</button><button class="co-btn">셀트리온</button><button class="co-btn">대웅제약</button><button class="co-btn">한미약품</button><button class="co-btn">종근당</button><button class="co-btn">유한양행</button><button class="co-btn">대원제약</button><button class="co-btn">녹십자</button><button class="co-btn">지씨셀(GC Cell)</button><button class="co-btn">HK이노엔</button><button class="co-btn">보령</button><button class="co-btn">동아ST</button></div>
-  <div id="coPanels"><div id="co-sbio" class="co-panel active">
-      <div class="co-card">
-        <div class="co-name">삼성바이오로직스 — 생산/제조</div>
-        <div class="co-meta">전형: 직무면접(PT) + 임원면접 + 약식 GSAT + 인성검사 <strong>원데이 면접</strong><br>PT: 당일 3가지 주제 중 1개 선택 → 30~60분 준비 후 발표<br>특징: 영어 질문 갑작스럽게 등장. 아이스브레이킹 후 꼬리질문 날카로움</div>
-        <div class="co-tags"><span class="co-tag">CMO/바이오의약품</span><span class="co-tag">배양/정제 공정</span><span class="co-tag">교대근무</span><span class="co-tag">영어면접</span><span class="co-tag">항체의약품</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 02</div><div class="q-item"><div class="q-dot"></div>생물/화학 전공 관련 질문 또는 배양/정제 공정 이해도 평가 질문</div></div><div class="month-group"><div class="month-label">2025. 08</div><div class="q-item"><div class="q-dot"></div>20년 뒤 어떤 사람이 되어 있을 것 같은가?</div><div class="q-item"><div class="q-dot"></div>노력해서 성취한 경험 (수치 포함)</div><div class="q-item"><div class="q-dot"></div>리더형인지 팔로워형인지? 이유는?</div><div class="q-item"><div class="q-dot"></div>가장 일하기 어려울 것 같은 직장 상사 유형은?</div><div class="q-item"><div class="q-dot"></div>남들이 말하는 본인의 장단점</div><div class="q-item"><div class="q-dot"></div>추후 QC로 옮기고 싶다 했는데 어떤 파트에서 일하고 싶은지?</div></div><div class="month-group"><div class="month-label">2025. 07</div><div class="q-item"><div class="q-dot"></div>왜 삼성바이오에피스가 아닌 삼성바이오로직스인가?</div><div class="q-item"><div class="q-dot"></div>어떤 직무에 들어가고 싶은가?</div><div class="q-item"><div class="q-dot"></div>왜 석사를 진학하지 않는가?</div></div><div class="month-group"><div class="month-label">2025. 01</div><div class="q-item"><div class="q-dot"></div>삼성바이오로직스 지원 동기</div><div class="q-item"><div class="q-dot"></div>본인을 뽑아야 하는 이유</div><div class="q-item"><div class="q-dot"></div>본인은 배양/정제보다 QC가 더 맞는 것 같은데 어떻게 생각하는가?</div></div><div class="month-group"><div class="month-label">2024. 10</div><div class="q-item hl"><div class="q-dot"></div>힘든 업무인데 잘 할 수 있겠는가? 야간근무 가능한가?</div></div><div class="month-group"><div class="month-label">2024. 08</div><div class="q-item"><div class="q-dot"></div>본인만의 소통방식 강점은?</div><div class="q-item hl"><div class="q-dot"></div>생산 공정의 전반적인 흐름에 대해 알고 있는 것을 말해보라</div></div><div class="month-group"><div class="month-label">2024. 07</div><div class="q-item"><div class="q-dot"></div>방금 한국어로 말한 내용을 영어로 다시 말해보라</div></div><div class="month-group"><div class="month-label">2024. 03</div><div class="q-item"><div class="q-dot"></div>실패했을 때 극복한 사례 / 본인의 강점</div><div class="q-item"><div class="q-dot"></div>회사가 성장하는 데 본인이 어떤 역할을 해야 하는가?</div></div><div class="month-group"><div class="month-label">2023. 01</div><div class="q-item hl"><div class="q-dot"></div>자기소개 / GMP가 무엇인지 아는지 / 어떤 직무에 가고 싶은지</div></div><div class="month-group"><div class="month-label">2022. 10</div><div class="q-item hl"><div class="q-dot"></div>CMO가 무엇인지 아는가?</div><div class="q-item hl"><div class="q-dot"></div>항체의약품 생산 원리를 설명하라</div><div class="q-item hl"><div class="q-dot"></div>항체 단백질 구조에 대해 설명하라</div></div><div class="month-group"><div class="month-label">2022. 07</div><div class="q-item hl"><div class="q-dot"></div>우리 회사에서 사용하는 기계 중 아는 것을 말해보라</div><div class="q-item hl"><div class="q-dot"></div>냉동 사이클에 대해 설명해보라</div></div><div class="month-group"><div class="month-label">2022. 05</div><div class="q-item hl"><div class="q-dot"></div>아미노산 종류와 면역작용 기작 등 실무 전문 지식</div></div><div class="month-group"><div class="month-label">2020. 05</div><div class="q-item hl"><div class="q-dot"></div>GMP란 어떤 것이라고 생각하는가?</div><div class="q-item"><div class="q-dot"></div>회사에 잘 적응하기 위해 어떤 것을 준비해야 한다고 생각하는가?</div></div></div><div id="co-celltrion" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">셀트리온 — 생산/제조</div>
-        <div class="co-meta">전형: 영어면접 + 실무진면접(1차) + 임원면접(2차) / 일부 PT·논술 포함<br>특징: 전공 기초(세포주기·항체·공정 원리) 검증 날카로움. 미흡 시 차가운 압박</div>
-        <div class="co-tags"><span class="co-tag">바이오시밀러</span><span class="co-tag">영어면접 필수</span><span class="co-tag">전공 기초 중요</span><span class="co-tag">세포 배양</span><span class="co-tag">크로마토그래피</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2025. 09</div><div class="q-item"><div class="q-dot"></div>지원동기 / 셀트리온에 대해 아는 점과 궁금한 점</div><div class="q-item"><div class="q-dot"></div>팀워크 관련 경험 / 직무 이해도</div></div><div class="month-group"><div class="month-label">2025. 08</div><div class="q-item"><div class="q-dot"></div>주 6일 근무, 교대 근무 가능한가?</div></div><div class="month-group"><div class="month-label">2025. 02</div><div class="q-item hl"><div class="q-dot"></div>GMP란 무엇인가?</div></div><div class="month-group"><div class="month-label">2025. 01</div><div class="q-item hl"><div class="q-dot"></div>배양과 정제 중 어떤 업무를 하고 싶은가? (필수 질문)</div><div class="q-item hl"><div class="q-dot"></div>세포 배양 관련 질문 / 면역학 관련 질문</div><div class="q-item"><div class="q-dot"></div>(영어) 실패를 어떻게 극복하는가?</div></div><div class="month-group"><div class="month-label">2024. 08</div><div class="q-item hl"><div class="q-dot"></div>오염(Contamination) 관련 질문 / 공정 내 주요 파라미터</div><div class="q-item hl"><div class="q-dot"></div>GMP와 cGMP의 차이점은?</div><div class="q-item hl"><div class="q-dot"></div>배양기(Bioreactor) 구조를 설명하라</div></div><div class="month-group"><div class="month-label">2024. 04</div><div class="q-item hl"><div class="q-dot"></div>항체에 대해 아는 대로 말해보라</div><div class="q-item"><div class="q-dot"></div>5년 후 본인의 모습은?</div></div><div class="month-group"><div class="month-label">2023. 05</div><div class="q-item hl"><div class="q-dot"></div>셀트리온 바이오시밀러 3가지와 각각의 작용 기전</div><div class="q-item hl"><div class="q-dot"></div>동물세포 세포주기를 설명하라</div><div class="q-item hl"><div class="q-dot"></div>크로마토그래피 사용 경험 (종류와 원리)</div></div><div class="month-group"><div class="month-label">2023. 04</div><div class="q-item hl"><div class="q-dot"></div>센트럴 도그마(Central Dogma)에 대해 아는 대로 설명하라</div></div><div class="month-group"><div class="month-label">2019. 08</div><div class="q-item hl"><div class="q-dot"></div>GMP의 정의 / 밸리데이션(Validation)의 개념</div><div class="q-item hl"><div class="q-dot"></div>CIP(Clean In Place)와 SIP(Steam In Place)의 차이점</div></div><div class="month-group"><div class="month-label">2019. 05</div><div class="q-item hl"><div class="q-dot"></div>정제 공정에 사용된 레진 비교, TFF 등 상세 공정 이론</div><div class="q-item"><div class="q-dot"></div>(임원) 직원들이 퇴사를 결정하게 되는 이유는 무엇이라 생각하는가?</div></div><div class="month-group"><div class="month-label">2019. 02</div><div class="q-item hl"><div class="q-dot"></div>왜 굳이 동물세포를 이용하여 생산하는가?</div><div class="q-item hl"><div class="q-dot"></div>동물세포에서 단백질이 생산되는 과정을 설명하라</div></div><div class="month-group"><div class="month-label">2019. 01</div><div class="q-item hl"><div class="q-dot"></div>크로마토그래피 종류 나열 및 원리 설명</div><div class="q-item hl"><div class="q-dot"></div>생물 공정의 특징 및 미생물/동물세포 공정의 차이점</div></div><div class="month-group"><div class="month-label">2018. 11</div><div class="q-item hl"><div class="q-dot"></div>LC(Liquid Chromatography) 및 Column 관련 질문</div><div class="q-item"><div class="q-dot"></div>정직성(Integrity) 관련 인성 질문</div></div><div class="month-group"><div class="month-label">2018. 08</div><div class="q-item"><div class="q-dot"></div>(압박) 같은 물 두 개를 놓고 하나를 어떻게 더 비싸게 팔 것인가?</div></div></div><div id="co-daewoong" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">대웅제약 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → 인적성 → AI면접 → 원데이면접 (직무/임원/PT/팀프로젝트)<br>특징: PT 발표 전형 강세 (40~50분 준비 후 발표). GMP·DI·일탈 시나리오 직무 질문 강함</div>
-        <div class="co-tags"><span class="co-tag">DI 질문 강함</span><span class="co-tag">PT 발표 전형</span><span class="co-tag">일탈·CAPA 시나리오</span><span class="co-tag">HPLC·QC 실무</span></div>
-        <div class="co-warn">※ ※ 2026년부터 원데이 면접 폐지 후기 다수 — 전형 변경 여부 확인 필요</div>
-      </div>
-      <div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>스트레스를 해소하는 방법은?</div><div class="q-item"><div class="q-dot"></div>협업 경험 — 본인은 어떤 역할을 맡았는지?</div><div class="q-item"><div class="q-dot"></div>성공 사례 / 실패 후 극복 사례</div></div><div class="month-group"><div class="month-label">2026. 03</div><div class="q-item hl"><div class="q-dot"></div>GMP 수준에서 가장 중요하다고 느끼는 것은?</div><div class="q-item hl"><div class="q-dot"></div>DI(Data Integrity)란 무엇인가?</div><div class="q-item hl"><div class="q-dot"></div>시스템 적합성(System Suitability)이란?</div><div class="q-item hl"><div class="q-dot"></div>아주 사소한 일이라도 일탈이라고 생각하는가?</div><div class="q-item hl"><div class="q-dot"></div>HPLC 시험 중 발생한 일탈 상황에 대한 논리적 검증 질문</div><div class="q-item hl"><div class="q-dot"></div>(PT) 미생물 또는 이화학 QC 진행 중 발생 가능한 일탈 가정하고 CAPA 수립하라</div></div><div class="month-group"><div class="month-label">2026. 01</div><div class="q-item"><div class="q-dot"></div>5년 뒤 커리어 모습 및 현재 진행 중인 것</div><div class="q-item hl"><div class="q-dot"></div>신규 장비 도입 시 품질 기준 확립에 관한 견해</div></div><div class="month-group"><div class="month-label">2025. 11</div><div class="q-item hl"><div class="q-dot"></div>상사의 부당한 지시에 어떻게 반응할 것인가?</div></div><div class="month-group"><div class="month-label">2025. 10</div><div class="q-item hl"><div class="q-dot"></div>공정서의 시험법이란 무엇인가?</div><div class="q-item hl"><div class="q-dot"></div>DI 관련 질문</div></div><div class="month-group"><div class="month-label">2025. 07</div><div class="q-item hl"><div class="q-dot"></div>DI에 대해 얼마나 아는가?</div><div class="q-item"><div class="q-dot"></div>갈등을 겪었을 때 어떻게 대처했는가?</div></div><div class="month-group"><div class="month-label">2025. 06</div><div class="q-item hl"><div class="q-dot"></div>EM(Environmental Monitoring)이란 무엇인가?</div><div class="q-item"><div class="q-dot"></div>야간·주말·휴일 근무에 대한 생각과 각오</div></div><div class="month-group"><div class="month-label">2020. 03</div><div class="q-item hl"><div class="q-dot"></div>(PT 면접) 주요 GMP 주제에 대한 발표</div></div></div><div id="co-hanmi" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">한미약품 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → AI 역량검사 → 1차 실무진 면접(팀장급) → 2차 임원 면접<br>특징: 영어 자기소개·역량 소개 세션 빈번. 자소서 기반 심층 꼬리 질문. LAPSCOVERY 사전 학습 필수</div>
-        <div class="co-tags"><span class="co-tag">영어면접 빈번</span><span class="co-tag">LAPSCOVERY</span><span class="co-tag">자소서 꼬리질문</span><span class="co-tag">ICH 가이드라인</span><span class="co-tag">기기 숙련도 검증</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 02</div><div class="q-item"><div class="q-dot"></div>특별한 강점 혹은 차별점</div><div class="q-item"><div class="q-dot"></div>(영어) 본인 역량 소개</div></div><div class="month-group"><div class="month-label">2025. 12</div><div class="q-item hl"><div class="q-dot"></div>사용해본 기기에 관한 질문 (어려운 점·뿌듯한 점 위주)</div><div class="q-item"><div class="q-dot"></div>직무 적합성 관련 질문</div></div><div class="month-group"><div class="month-label">2025. 10</div><div class="q-item"><div class="q-dot"></div>다른 회사 지원한 곳이 있는가? 왜 한미약품을 선택했는가?</div><div class="q-item hl"><div class="q-dot"></div>ICH Q2 관련 질문 (시험법 밸리데이션)</div></div><div class="month-group"><div class="month-label">2025. 09</div><div class="q-item hl"><div class="q-dot"></div>한미약품 바이오플랜트 기술 LAPSCOVERY에 대해 아는 점</div><div class="q-item hl"><div class="q-dot"></div>소독제 사용 경험이 있는지</div><div class="q-item"><div class="q-dot"></div>본인이 리더인데 팀원이 업무를 제대로 수행하지 못한다면?</div><div class="q-item"><div class="q-dot"></div>직무 지원동기 / (영어) 자기소개</div><div class="q-item"><div class="q-dot"></div>본인은 똑똑한 편인가, 노력하는 편인가?</div></div><div class="month-group"><div class="month-label">2025. 08</div><div class="q-item"><div class="q-dot"></div>에어팟 끼고 일하는 MZ들에 대한 본인의 생각</div><div class="q-item hl"><div class="q-dot"></div>DI(Data Integrity)가 무엇인지 알고 있는가?</div></div><div class="month-group"><div class="month-label">2025. 03</div><div class="q-item"><div class="q-dot"></div>자기소개 및 장단점 / 지원동기 / (영어) 자기소개</div><div class="q-item hl"><div class="q-dot"></div>품질관리에서 가장 중요하다고 생각하는 점</div></div><div class="month-group"><div class="month-label">2024. 12</div><div class="q-item"><div class="q-dot"></div>나보다 늦게 입사한 사원이 반말을 한다면?</div><div class="q-item hl"><div class="q-dot"></div>GMP란 무엇인가?</div></div><div class="month-group"><div class="month-label">2024. 11</div><div class="q-item hl"><div class="q-dot"></div>가장 자신 있는 분석 기기</div><div class="q-item"><div class="q-dot"></div>지원한 곳 외에 다른 직무로 배정된다면?</div></div><div class="month-group"><div class="month-label">2024. 09</div><div class="q-item hl"><div class="q-dot"></div>QC가 무엇이라고 생각하는가?</div><div class="q-item hl"><div class="q-dot"></div>가장 자신 있는 실험(분석)</div></div><div class="month-group"><div class="month-label">2024. 06</div><div class="q-item hl"><div class="q-dot"></div>의약품 청결도 관리에서 가장 중요한 프로세스는 무엇인가?</div><div class="q-item hl"><div class="q-dot"></div>사용 기기 중 하나를 골라 상세히 설명하라</div><div class="q-item"><div class="q-dot"></div>(영어) 자기소개 혹은 지원동기</div></div><div class="month-group"><div class="month-label">2024. 01</div><div class="q-item"><div class="q-dot"></div>한미약품 자사 제품(파이프라인)을 알고 있는가?</div><div class="q-item hl"><div class="q-dot"></div>사용해본 기기 및 사용 시 주의사항</div><div class="q-item"><div class="q-dot"></div>본인이 직무에 기여할 수 있는 구체적 방안</div></div></div><div id="co-ckd" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">종근당 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → AI 면접 → 1차 실무진(천안/공장) → 2차 경영진(서울/본사)<br>특징: 2차 임원 압박 면접 강도 매우 높음. 흡연·음주·가치관·돌발 상황 대응 검증</div>
-        <div class="co-tags"><span class="co-tag">임원 압박 면접</span><span class="co-tag">유기화학 기초</span><span class="co-tag">기기 원리 질문</span><span class="co-tag">가치관·태도 검증</span><span class="co-tag">천안 공장 근무</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>야근·주말 출근 괜찮은지?</div><div class="q-item hl"><div class="q-dot"></div>GMP 교육 과정을 보고 이건 무슨 내용의 교육인지 설명하라</div></div><div class="month-group"><div class="month-label">2026. 03</div><div class="q-item hl"><div class="q-dot"></div>해 봤던 실험 내용 (이력서 위주)</div><div class="q-item"><div class="q-dot"></div>내가 했던 일을 영어로 말하기 / 흡연 여부</div></div><div class="month-group"><div class="month-label">2025. 11</div><div class="q-item hl"><div class="q-dot"></div>기본적인 유기화학 관련 질문</div></div><div class="month-group"><div class="month-label">2025. 09</div><div class="q-item"><div class="q-dot"></div>본인의 장점과 단점, 그리고 그 근거</div><div class="q-item"><div class="q-dot"></div>상사와의 갈등 시 해결 방안 / 입사 후 포부</div></div><div class="month-group"><div class="month-label">2025. 07</div><div class="q-item"><div class="q-dot"></div>기숙사가 없는데 자취할 것인가?</div><div class="q-item hl"><div class="q-dot"></div>직무 교육에서 무엇을 배웠는가? / GMP 관련 질문</div></div><div class="month-group"><div class="month-label">2025. 06</div><div class="q-item hl"><div class="q-dot"></div>GMP 등 제약 관련 지식을 알고 있는가?</div><div class="q-item"><div class="q-dot"></div>현장에서 많이 걸어서 힘들 텐데 괜찮은가?</div></div><div class="month-group"><div class="month-label">2025. 04</div><div class="q-item"><div class="q-dot"></div>흡연 여부와 주량 / 자기계발을 위한 노력</div><div class="q-item"><div class="q-dot"></div>직무를 위해 어떤 노력을 얼마나 했는가? (꼬리 질문 압박)</div></div><div class="month-group"><div class="month-label">2024. 11</div><div class="q-item"><div class="q-dot"></div>이전 회사에서 무엇을 배웠는가? / 퇴사 사유</div><div class="q-item"><div class="q-dot"></div>왜 QA팀에 지원하게 됐는가?</div></div><div class="month-group"><div class="month-label">2024. 09</div><div class="q-item hl"><div class="q-dot"></div>사용해 본 기기의 작동 방법 및 기기 원리</div><div class="q-item"><div class="q-dot"></div>전공 관련 질문 / 공백기 동안 무엇을 했는가?</div></div><div class="month-group"><div class="month-label">2024. 01</div><div class="q-item"><div class="q-dot"></div>제약산업에 종사하려는 이유</div><div class="q-item hl"><div class="q-dot"></div>생산 과정에 대해 아는 대로 말해 보라</div><div class="q-item hl"><div class="q-dot"></div>APS(Aseptic Process Simulation)에 대해 설명해 보라</div></div><div class="month-group"><div class="month-label">2023. 07</div><div class="q-item hl"><div class="q-dot"></div>이전 회사에서의 GMP 시스템 운영 관련 질문</div><div class="q-item"><div class="q-dot"></div>팀 프로젝트 기여도가 낮다면 어떻게 하겠는가?</div></div><div class="month-group"><div class="month-label">2023. 06</div><div class="q-item"><div class="q-dot"></div>(돌발) 아프리카에서 신발을 어떻게 판매할 것인가?</div><div class="q-item hl"><div class="q-dot"></div>GMP 관련 절차 및 세부 프로세스 (심층 질문)</div></div></div><div id="co-yuhan" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">유한양행 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 필기시험(영어·회사정보 등) → 1차 실무 면접(GMP/공정) → 2차 임원 면접(인성)<br>특징: 면접 전 필기시험 포함. 보수적이고 묵직한 분위기. 오창 근무 의지·연고지 질문 빈번</div>
-        <div class="co-tags"><span class="co-tag">필기시험 포함</span><span class="co-tag">GMP 포괄적 이해</span><span class="co-tag">오창 근무</span><span class="co-tag">보수적 분위기</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2025. 01</div><div class="q-item"><div class="q-dot"></div>취미가 무엇인지 / 살면서 힘든 경험</div><div class="q-item"><div class="q-dot"></div>기억에 남는 실험은 무엇이 있었는지</div><div class="q-item"><div class="q-dot"></div>오창에서 근무가 가능한지</div></div><div class="month-group"><div class="month-label">2024. 10</div><div class="q-item hl"><div class="q-dot"></div>제약산업에서 최근 품질 관련 이슈가 무엇이었는지</div><div class="q-item hl"><div class="q-dot"></div>생산과정에서 문제가 생겼을 때 어떻게 처리할 것인지</div><div class="q-item"><div class="q-dot"></div>다른 지원회사가 있는지, 있다면 어디로 왜 갈 건지</div></div><div class="month-group"><div class="month-label">2024. 02</div><div class="q-item hl"><div class="q-dot"></div>GMP에 대해 설명해 줄 수 있는지</div><div class="q-item hl"><div class="q-dot"></div>제약 공정에 대한 이해 관련 질문</div><div class="q-item"><div class="q-dot"></div>본인에 대한 스스로의 평가</div></div><div class="month-group"><div class="month-label">2023. 03</div><div class="q-item"><div class="q-dot"></div>최근 읽은 책 / 취미 / 술은 얼마나 마시는지</div><div class="q-item hl"><div class="q-dot"></div>(필기시험) 영어 문제 및 회사 정보 관련 문항</div></div><div class="month-group"><div class="month-label">2022. 09</div><div class="q-item hl"><div class="q-dot"></div>시험과 실험의 차이점은 무엇인가?</div><div class="q-item hl"><div class="q-dot"></div>정확성(Accuracy)과 정밀성(Precision)의 차이는?</div><div class="q-item"><div class="q-dot"></div>워라밸에 대한 본인의 생각</div></div></div><div id="co-daewon" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">대원제약 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → PI 진단(인적성) → 1차 실무 면접 → 2차 임원 면접 (주로 공장 진행)<br>특징: 경력·직무 경험 기반 날카로운 검증. "오래 다닐 사람"인지 로열티 질문 강함</div>
-        <div class="co-tags"><span class="co-tag">로열티 질문 강함</span><span class="co-tag">PI 진단 포함</span><span class="co-tag">경력 기반 꼬리질문</span><span class="co-tag">GMP 교육 이수 확인</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 03</div><div class="q-item"><div class="q-dot"></div>자기소개 및 자소서에 적힌 경험 기반 질문</div></div><div class="month-group"><div class="month-label">2025. 12</div><div class="q-item"><div class="q-dot"></div>퇴사 사유 (꼬리 질문 다수)</div><div class="q-item"><div class="q-dot"></div>자신 있는 업무 및 그에 대한 설명</div><div class="q-item"><div class="q-dot"></div>만약 대원제약을 퇴사하게 된다면 그 이유는 무엇일 것 같은가?</div></div><div class="month-group"><div class="month-label">2025. 05</div><div class="q-item"><div class="q-dot"></div>왜 대원제약인가? / 면접에서 떨어지면 어떻게 할 것인가?</div><div class="q-item hl"><div class="q-dot"></div>직무에서 가장 중요한 것은 무엇이라고 생각하는가?</div></div><div class="month-group"><div class="month-label">2024. 04</div><div class="q-item"><div class="q-dot"></div>자기소개 (왜 대원제약인지, 왜 당신을 뽑아야 하는지 포함)</div><div class="q-item hl"><div class="q-dot"></div>업무 관련 경험(기기 분석, GMP 교육, 인턴 등)에 대한 날카로운 질문</div><div class="q-item"><div class="q-dot"></div>워라밸에 대해 어떻게 생각하는가? / 타자 속도</div></div><div class="month-group"><div class="month-label">2024. 03</div><div class="q-item"><div class="q-dot"></div>생명과학 전공인데 제약회사에 지원한 이유</div><div class="q-item hl"><div class="q-dot"></div>GMP에 대해 공부하거나 경험한 내용을 자유롭게 기술</div></div><div class="month-group"><div class="month-label">2023. 10</div><div class="q-item"><div class="q-dot"></div>본인을 어필할 수 있는 사항</div><div class="q-item"><div class="q-dot"></div>왜 꼭 대원제약이어야 하는가? / 왜 꼭 이 사업장이어야 하는가?</div></div><div class="month-group"><div class="month-label">2023. 04</div><div class="q-item hl"><div class="q-dot"></div>GMP에 대해서 아는 대로 설명</div><div class="q-item"><div class="q-dot"></div>힘들었던 경험과 극복 사례 / 마지막 할 말</div></div><div class="month-group"><div class="month-label">2022. 12</div><div class="q-item"><div class="q-dot"></div>야근을 얼마나 해봤는가? / 지역 이동(근무지 변경)에 부담은 없는가?</div></div></div><div id="co-gc" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">녹십자 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → 인성검사 → 1차 면접(PT/실무) → 2차 면접(임원/경영진)<br>PT 면접: 현장 부여 주제 발표 (7~10분, 준비 15분)<br>특징: 오창·화순 공장 근무 가능 여부 집요하게 확인. 이직 사유 심층 검증</div>
-        <div class="co-tags"><span class="co-tag">PT 면접</span><span class="co-tag">화순·오창 근무 확인</span><span class="co-tag">영어 즉석 영작</span><span class="co-tag">이직 사유 집요</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 05</div><div class="q-item"><div class="q-dot"></div>MBTI가 무엇인가? / 본인의 단점 / 이직 사유</div></div><div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>PT 발표 내용 및 자소서 기반 질문</div><div class="q-item hl"><div class="q-dot"></div>해당 업무를 실제로 해봤는지 테스트하는 질문 (실무 검증)</div><div class="q-item"><div class="q-dot"></div>이직을 자주 한 이유</div></div><div class="month-group"><div class="month-label">2026. 02</div><div class="q-item"><div class="q-dot"></div>영어 잘하는지? / 다른 지역 공장(연고지 외)을 가도 괜찮은지?</div><div class="q-item"><div class="q-dot"></div>리더십을 발휘해 본 경험 / 자신을 왜 뽑아야 하는가?</div></div><div class="month-group"><div class="month-label">2025. 11</div><div class="q-item"><div class="q-dot"></div>왜 녹십자로 이직하려고 하는가? / 갑자기 다른 부서로 배치해도 괜찮은가?</div></div><div class="month-group"><div class="month-label">2025. 07</div><div class="q-item"><div class="q-dot"></div>직무 관련 자기소개 (한국어/영어)</div><div class="q-item"><div class="q-dot"></div>화순 공장에 보낸다면 갈 생각이 있는가?</div><div class="q-item"><div class="q-dot"></div>PT 면접 후 꼬리 질문 및 왜 그 주제를 선택했는지</div></div><div class="month-group"><div class="month-label">2024. 12</div><div class="q-item"><div class="q-dot"></div>상사와의 불화를 어떻게 해결할 것인지</div><div class="q-item hl"><div class="q-dot"></div>완제 공정 과정에 대해 전반적인 흐름을 알고 있는가? (vial 세척~capping)</div><div class="q-item hl"><div class="q-dot"></div>완제 부서에서 원하는 구체적인 직무는 무엇인가?</div></div><div class="month-group"><div class="month-label">2024. 09</div><div class="q-item hl"><div class="q-dot"></div>기본적인 GMP 질문</div><div class="q-item"><div class="q-dot"></div>지원한 직무 이외에 다른 직무를 하라고 하면 어떻게 할지?</div></div><div class="month-group"><div class="month-label">2024. 05</div><div class="q-item hl"><div class="q-dot"></div>GMP가 무엇인지?</div><div class="q-item"><div class="q-dot"></div>(영어) 자기소개 / 회사에 대해 아는 것</div></div><div class="month-group"><div class="month-label">2024. 03</div><div class="q-item hl"><div class="q-dot"></div>직무 관련 경험이 있는지? (용어 설명 포함)</div><div class="q-item"><div class="q-dot"></div>본인이 다녔던 캠퍼스에 대해 말하고 이를 영어로 다시 말해보라</div></div><div class="month-group"><div class="month-label">2023. 07</div><div class="q-item hl"><div class="q-dot"></div>SQL에 대해 설명하세요</div><div class="q-item"><div class="q-dot"></div>인성검사 결과 특정 부분이 부족하게 나왔는데 왜 그렇다고 생각하나?</div></div></div><div id="co-gccell" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">지씨셀(GC Cell) — 생산/품질관리</div>
-        <div class="co-meta">전형: 서류 → 1차 실무진 면접 → 2차 임원 면접 (또는 다대다 1회로 종료)<br>특징: 세포치료제 특성상 주말·공휴일 근무 가능 여부 확답 필수. 부드러운 분위기</div>
-        <div class="co-tags"><span class="co-tag">세포치료제</span><span class="co-tag">주말 근무 확답 필수</span><span class="co-tag">세포 배양 경험</span><span class="co-tag">부드러운 분위기</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>지원동기 / 스트레스 관리법 / 자기소개서 관련 질문</div></div><div class="month-group"><div class="month-label">2026. 03</div><div class="q-item"><div class="q-dot"></div>본인이 회사를 선택할 때 가장 중요시하는 것은?</div><div class="q-item"><div class="q-dot"></div>상사가 많은 양의 업무를 지시한다면 어떻게 하겠는가?</div><div class="q-item"><div class="q-dot"></div>동기가 본인의 실수를 덮어줬다면 어떻게 행동하겠는가?</div></div><div class="month-group"><div class="month-label">2026. 02</div><div class="q-item hl"><div class="q-dot"></div>자사에서 어떤 제품을 만드는지 알고 있는가?</div><div class="q-item hl"><div class="q-dot"></div>직무에 있어서 중요한 게 무엇이라고 생각하는가?</div></div><div class="month-group"><div class="month-label">2025. 09</div><div class="q-item hl"><div class="q-dot"></div>GMP란 무엇인가?</div><div class="q-item"><div class="q-dot"></div>주말이나 공휴일 출근이 가능한가?</div></div><div class="month-group"><div class="month-label">2025. 05</div><div class="q-item"><div class="q-dot"></div>주말 근무가 가능한가? / 종교가 있는가? (주말 근무 확인용)</div><div class="q-item hl"><div class="q-dot"></div>자사 제품과 회사 관련하여 아는 것이 있는가?</div></div><div class="month-group"><div class="month-label">2024. 06</div><div class="q-item hl"><div class="q-dot"></div>학교에서 진행한 실험 중 가장 기억에 남는 것은? (세포 배양, 샘플링, 단백질 농도 측정 등)</div></div></div><div id="co-hk" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">HK이노엔 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → 인적성/AI → 1차 실무면접(PT/오송) → 2차 경영진(서울)<br>PT: 현장 즉석 작성 후 발표<br>특징: HPLC 원리·DI 꼬리 질문 매우 날카로움. 면접비 지급</div>
-        <div class="co-tags"><span class="co-tag">HPLC·DI 심층 질문</span><span class="co-tag">PT 즉석 작성</span><span class="co-tag">오송 1차·서울 2차</span><span class="co-tag">면접비 지급</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>자기소개 / 왜 품질관리에 지원했는지</div><div class="q-item"><div class="q-dot"></div>상사가 불합리한 일을 시키면 어떻게 할 것인지</div><div class="q-item"><div class="q-dot"></div>왜 다른 제약사가 아닌 HK이노엔인지</div></div><div class="month-group"><div class="month-label">2025. 11</div><div class="q-item"><div class="q-dot"></div>왜 이 직무를 선택했는가? / 인생 중 가장 심했던 갈등 경험</div><div class="q-item hl"><div class="q-dot"></div>GMP에서 중요한 점</div></div><div class="month-group"><div class="month-label">2025. 05</div><div class="q-item hl"><div class="q-dot"></div>QC와 QA의 차이점은 무엇인가?</div><div class="q-item hl"><div class="q-dot"></div>HPLC 원리에 대해 설명해 보라 (꼬리 질문 다수)</div><div class="q-item hl"><div class="q-dot"></div>직무를 수행하는 데 무엇이 중요하다고 생각하는가?</div></div><div class="month-group"><div class="month-label">2024. 11</div><div class="q-item hl"><div class="q-dot"></div>품질관리 부서가 구체적으로 어떤 일을 하는지 아는가?</div><div class="q-item"><div class="q-dot"></div>(PT 면접) 현장에서 주어진 주제에 대한 기획 및 발표</div></div><div class="month-group"><div class="month-label">2024. 06</div><div class="q-item"><div class="q-dot"></div>팀장까지 성장하고 싶은 의지가 있는가?</div><div class="q-item hl"><div class="q-dot"></div>기기를 어느 정도 사용할 수 있는가? (숙련도)</div><div class="q-item"><div class="q-dot"></div>우리 회사 제품은 무엇이 있는지 알고 있는가?</div></div><div class="month-group"><div class="month-label">2020. 12</div><div class="q-item hl"><div class="q-dot"></div>DI(Data Integrity)에 관해 설명해 보라</div><div class="q-item hl"><div class="q-dot"></div>HPLC에 관해 설명해 보라</div><div class="q-item hl"><div class="q-dot"></div>DI 준수를 위해 가장 중요하다고 생각하는 것은?</div><div class="q-item"><div class="q-dot"></div>무단횡단을 한 적이 있는가? (도덕성/정직성)</div></div></div><div id="co-boryung" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">보령 — 생산관리/품질관리</div>
-        <div class="co-meta">전형: 서류 → 인적성/케이스 면접/워크숍 → 1차 실무 면접 → 2차 임원 면접<br>특징: 예산 공장 근무 가능 여부·장기 근속 의지를 매우 중요하게 평가. 편안한 분위기</div>
-        <div class="co-tags"><span class="co-tag">예산 공장 근무</span><span class="co-tag">장기 근속 평가</span><span class="co-tag">SAP 사용 경험</span><span class="co-tag">편안한 분위기</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 04</div><div class="q-item"><div class="q-dot"></div>자기소개 / 출퇴근·거주 어떻게 할 건지</div><div class="q-item"><div class="q-dot"></div>공장 처음 보고 든 생각이 무엇인지</div></div><div class="month-group"><div class="month-label">2026. 03</div><div class="q-item"><div class="q-dot"></div>이직 사유 심층 질문 (진짜 사유 솔직 답변 요청)</div><div class="q-item hl"><div class="q-dot"></div>어떤 분석을 경험해봤는지 / 사용할 수 있는 분석 장비는?</div><div class="q-item"><div class="q-dot"></div>예산 생활 괜찮은지? (거주 가능 여부)</div></div><div class="month-group"><div class="month-label">2024. 09</div><div class="q-item"><div class="q-dot"></div>왜 많은 제약사 중 보령을 선택했는가?</div><div class="q-item hl"><div class="q-dot"></div>밸리데이션(Validation)이란 무엇인가?</div><div class="q-item"><div class="q-dot"></div>야근이 많은데 가능한가?</div></div><div class="month-group"><div class="month-label">2024. 07</div><div class="q-item"><div class="q-dot"></div>전공 과목 중 가장 인상 깊었던 과목 / 지원동기</div><div class="q-item"><div class="q-dot"></div>회사에 대해 아는 것들을 말해보라</div></div><div class="month-group"><div class="month-label">2024. 06</div><div class="q-item hl"><div class="q-dot"></div>SAP(ERP 시스템) 사용해봤는지</div><div class="q-item"><div class="q-dot"></div>자기소개 / 취미 / 인턴 경험 관련 질문</div></div></div><div id="co-donga" class="co-panel">
-      <div class="co-card">
-        <div class="co-name">동아ST — 생산관리/품질관리/제조</div>
-        <div class="co-meta">전형: 서류 → 인적성/역량검사 → 1차 면접(직무/영어/PT) → 2차 면접(임원)<br>영어 면접: 영문 GMP 스크립트(1장) 숙지 후 영어로 브리핑 (숙지 시간 10분 내외)<br>특징: "초등학생에게 설명하듯" 식의 완전 체득 여부 확인 질문 특징적. 전형 빠른 편</div>
-        <div class="co-tags"><span class="co-tag">영문 GMP 브리핑</span><span class="co-tag">DI·밸리데이션 심층</span><span class="co-tag">PT 면접</span><span class="co-tag">전형 빠른 편</span></div>
-        
-      </div>
-      <div class="month-group"><div class="month-label">2026. 05</div><div class="q-item hl"><div class="q-dot"></div>최근 제약바이오 트렌드 상황이 어떻게 흘러가고 있는 것 같은가?</div><div class="q-item"><div class="q-dot"></div>대졸 생산직과 고졸 생산직의 차이가 무엇이라고 생각하는가?</div><div class="q-item"><div class="q-dot"></div>(영어) 자기소개 및 영문 텍스트 분석·설명</div></div><div class="month-group"><div class="month-label">2026. 04</div><div class="q-item hl"><div class="q-dot"></div>밸리데이션(Validation)이 무엇인지 아는가?</div><div class="q-item hl"><div class="q-dot"></div>데이터 분석 시 평균(Average)을 사용하면 안 좋은 점은 무엇인가?</div><div class="q-item"><div class="q-dot"></div>(영어) 제공된 영문 페이지를 읽고 내용 설명하기</div></div><div class="month-group"><div class="month-label">2026. 03</div><div class="q-item hl"><div class="q-dot"></div>GMP와 관련하여 세포 오염이나 방진복 착용에 관한 견해</div><div class="q-item"><div class="q-dot"></div>1분 자기소개 및 지원동기</div><div class="q-item"><div class="q-dot"></div>자소서보다는 실제 직무 현장 상황 대처 질문</div></div><div class="month-group"><div class="month-label">2025. 01</div><div class="q-item hl"><div class="q-dot"></div>영문 GMP 스크립트 내용을 읽고 브리핑해 보라</div><div class="q-item hl"><div class="q-dot"></div>회사의 최근 현황이나 뉴스를 조사했을 텐데, 어떤 것을 보았고 무엇을 느꼈는가?</div></div><div class="month-group"><div class="month-label">2024. 11</div><div class="q-item"><div class="q-dot"></div>야근이나 추가 근무가 많은 편인데 감당할 수 있는가?</div><div class="q-item"><div class="q-dot"></div>자신의 생각을 영어로 정리하여 PT(스피치) 하기</div></div><div class="month-group"><div class="month-label">2024. 06</div><div class="q-item hl"><div class="q-dot"></div>초등학생에게 DI(Data Integrity)를 설명한다고 가정하고 쉽게 설명해 보라</div><div class="q-item"><div class="q-dot"></div>신입으로서 경력 많은 분들과 어떻게 협업하고 일할 것인가?</div></div><div class="month-group"><div class="month-label">2024. 05</div><div class="q-item hl"><div class="q-dot"></div>데이터 완전성(Data Integrity)의 의미와 중요성</div><div class="q-item"><div class="q-dot"></div>수많은 제약사 중 왜 꼭 동아ST여야만 하는가?</div></div></div></div>
+  <div class="co-tabs" id="coTabs"></div>
+  <div id="coPanels"></div>
 </div>
 
 </main>
@@ -1352,9 +695,10 @@ footer strong { color: var(--ink2); font-weight: 600; }
 <footer>
   <strong>Copyright © 한국바이오협회 박영진</strong> All Rights Reserved.
   <br><span style="margin-top:4px;display:block">Career Up! Bio Interview Archive — 제약·바이오 취업 인사이트 플랫폼</span>
+  <br><a href="mailto:yjpark@koreabio.org" style="color:var(--ink3);text-decoration:none;font-size:.76rem;border-bottom:1px solid var(--border)">yjpark@koreabio.org</a>
 </footer>
 
-<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:&#39;smooth&#39;})">↑</button>
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
 // ════════════════════════════════════════════════════
@@ -1365,7 +709,7 @@ footer strong { color: var(--ink2); font-weight: 600; }
 // ════════════════════════════════════════════════════
 const qaData = [
   // ── GMP 기본개념 ────────────────────────────────
-  {n:1, cat:'GMP 기본개념', real:true, src:'셀트리온 2025.02 / 삼성바이오로직스 2020.05 / 대웅제약 2026.03 / 지씨셀 2025.09 / 한미약품 2024.12 / 녹십자 2024.05 / 대원제약 2023.04',
+  {n:1, cat:'GMP 기본개념', real:true, src:'셀트리온 2025.02 / 삼성바이오로직스 2020.05 / 대웅제약 2026.03 / 지씨셀 2025.09 / 한미약품 2024.12 / 녹십자 2024.05 / 대원제약 2023.04 / 한림제약 2024.12 / JW중외제약 2026.01',
    q:'GMP란 무엇이며, 왜 중요한가요? (3대 목적 — 오염 방지·혼동 착오 방지·품질 일관성 — 과 연관 지어 설명해보세요)'},
   {n:2, cat:'GMP 기본개념', real:true, src:'삼성바이오로직스 2023.01 / HK이노엔 2025.05',
    q:'QC(품질관리)와 QA(품질보증)의 차이점은 무엇인가요? 본인이 어떤 직무에 더 적합한지 이유와 함께 말해보세요.'},
@@ -1383,7 +727,7 @@ const qaData = [
    q:'CAPA(시정 및 예방조치)란 무엇이며, 어떤 절차로 진행되나요? 좋은 CAPA와 나쁜 CAPA의 차이를 설명해보세요.'},
   {n:9, cat:'GMP 기본개념', real:false, src:'',
    q:'변경관리(Change Control)는 왜 필요하며, 어떤 절차를 거치나요?'},
-  {n:10, cat:'GMP 기본개념', real:true, src:'한미약품 2025.03 / HK이노엔 2025.11 / 대웅제약 2026.03 / 유한양행 2024.10',
+  {n:10, cat:'GMP 기본개념', real:true, src:'한미약품 2025.03 / HK이노엔 2025.11 / 대웅제약 2026.03 / 유한양행 2024.10 / 한림제약 2023.05 / JW중외제약 2025.11',
    q:'문서관리의 중요성과 Good Documentation Practice란 무엇인가요? 품질관리에서 가장 중요하다고 생각하는 점은?'},
   {n:11, cat:'GMP 기본개념', real:true, src:'종근당 2026.04',
    q:'GMP 교육 과정의 내용을 설명해보세요. 직무 교육에서 무엇을 배웠나요?'},
@@ -1459,7 +803,7 @@ const qaData = [
    q:'밸리데이션(Validation)이란 무엇인지, 현장에서 어떻게 적용하는지 설명해보세요.'},
 
   // ── 데이터·문서화 ────────────────────────────────
-  {n:45, cat:'데이터·문서화', real:true, src:'대웅제약 2026.03 / 대웅제약 2025.07 / 한미약품 2025.08 / HK이노엔 2020.12 / 동아ST 2024.05 / 동아ST 2024.06',
+  {n:45, cat:'데이터·문서화', real:true, src:'대웅제약 2026.03 / 대웅제약 2025.07 / 한미약품 2025.08 / HK이노엔 2020.12 / 동아ST 2024.05 / 동아ST 2024.06 / JW중외제약 2025.07 / JW중외제약 2024.01',
    q:'Data Integrity(데이터 무결성)란 무엇이며 왜 중요한가요? ALCOA++ 원칙과 연관 지어, 초등학생에게도 설명하듯 쉽게 말해보세요.'},
   {n:46, cat:'데이터·문서화', real:false, src:'',
    q:'종이 기록에서 수정이 필요할 때 GMP에서 요구하는 올바른 방법은? 수정액을 쓰면 안 되는 이유는?'},
@@ -1517,6 +861,26 @@ const qaData = [
    q:'지역 근무(오창·천안·화순·예산 등 공장 지역)에 대한 적응 의지와 거주 계획은?'},
   {n:71, cat:'지원동기·직무이해', real:false, src:'',
    q:'마지막으로 하고 싶은 말이나 회사/직무에 대해 깊이 있는 질문을 해보세요.'},
+
+  // ── 면접기출4 신규 추가 ──────────────────────────
+  {n:72, cat:'GMP 기본개념', real:true, src:'한림제약 2023.05 / JW중외제약 2025.11 / JW중외제약 2024.04',
+   q:'품질관리(QC) 직무에서 하는 업무가 구체적으로 무엇인지 아는가? 품질관리에서 가장 중요하다고 생각하는 것은?'},
+  {n:73, cat:'QC 심화', real:true, src:'JW중외제약 2025.01 / JW중외제약 2025.02',
+   q:'HPLC의 구체적인 시스템 구성에 대해 설명해 보라. 분석 시 가장 중요한 요소는 무엇이라고 생각하는가?'},
+  {n:74, cat:'QC 심화', real:true, src:'한림제약 2023.04',
+   q:'영문 약전(Pharmacopoeia) 해석 및 화학 구조식 관련 전공 질문에 답할 수 있는가?'},
+  {n:75, cat:'데이터·문서화', real:true, src:'JW중외제약 2025.07 / JW중외제약 2025.04 / JW중외제약 2024.01',
+   q:'DI(Data Integrity)가 무엇인지 설명하고, 이를 실제 제조·품질 현장에 어떻게 적용할 것인지 구체적으로 말해보세요.'},
+  {n:76, cat:'QA 심화', real:true, src:'JW중외제약 2025.05',
+   q:'과거에 경험해 본 기준일탈(일탈 상황)과 이를 어떻게 해결했는가? 시험 중 특히 어려웠던 것은 무엇이었는가?'},
+  {n:77, cat:'QA 심화', real:true, src:'JW중외제약 2024.10',
+   q:'QMS(품질경영시스템)이란 무엇이며, 이 직무에서 어떤 업무를 수행하는지 아는 대로 말해보세요.'},
+  {n:78, cat:'QC 심화', real:true, src:'한림제약 2023.04',
+   q:'기기 분석을 직접 진행해 본 경험이 있는가? 어떤 기기를 어떻게 사용했는지 구체적으로 설명해보세요.'},
+  {n:79, cat:'지원동기·직무이해', real:true, src:'한림제약 2024.01 / 한림제약 2023.07',
+   q:'바이오 제약회사가 아닌 케미컬 위주 제약사를 지원한 이유는? 왜 하필 QA(품질보증) 직무를 선택했는가?'},
+  {n:80, cat:'지원동기·직무이해', real:true, src:'JW중외제약 2024.06',
+   q:'품질 직무를 "정직"이라는 단어를 제외하고 한마디로 정의한다면 어떻게 표현하겠습니까?'},
 ];
 
 // ════════════════════════════════════════════════════
@@ -1620,6 +984,81 @@ const alcoaPlus = [
 //  COMPANY DATA
 // ════════════════════════════════════════════════════
 const companyData = [
+  {id:'co-gc', name:'녹십자', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → 인성검사 → 1차 면접(PT/실무) → 2차 면접(임원/경영진)<br>PT 면접: 현장 부여 주제 발표 (7~10분, 준비 15분)<br>특징: 오창·화순 공장 근무 가능 여부 집요하게 확인. 이직 사유 심층 검증',
+   tags:['PT 면접','화순·오창 근무 확인','영어 즉석 영작','이직 사유 집요'],
+   months:[
+     {d:'2026. 05', qs:['MBTI가 무엇인가? / 본인의 단점 / 이직 사유']},
+     {d:'2026. 04', qs:['PT 발표 내용 및 자소서 기반 질문','|해당 업무를 실제로 해봤는지 테스트하는 질문 (실무 검증)','이직을 자주 한 이유']},
+     {d:'2026. 02', qs:['영어 잘하는지? / 다른 지역 공장(연고지 외)을 가도 괜찮은지?','리더십을 발휘해 본 경험 / 자신을 왜 뽑아야 하는가?']},
+     {d:'2025. 11', qs:['왜 녹십자로 이직하려고 하는가? / 갑자기 다른 부서로 배치해도 괜찮은가?']},
+     {d:'2025. 07', qs:['직무 관련 자기소개 (한국어/영어)','화순 공장에 보낸다면 갈 생각이 있는가?','PT 면접 후 꼬리 질문 및 왜 그 주제를 선택했는지']},
+     {d:'2024. 12', qs:['상사와의 불화를 어떻게 해결할 것인지','|완제 공정 과정에 대해 전반적인 흐름을 알고 있는가? (vial 세척~capping)','|완제 부서에서 원하는 구체적인 직무는 무엇인가?']},
+     {d:'2024. 09', qs:['|기본적인 GMP 질문','지원한 직무 이외에 다른 직무를 하라고 하면 어떻게 할지?']},
+     {d:'2024. 05', qs:['|GMP가 무엇인지?','(영어) 자기소개 / 회사에 대해 아는 것']},
+     {d:'2024. 03', qs:['|직무 관련 경험이 있는지? (용어 설명 포함)','본인이 다녔던 캠퍼스에 대해 말하고 이를 영어로 다시 말해보라']},
+     {d:'2023. 07', qs:['|SQL에 대해 설명하세요','인성검사 결과 특정 부분이 부족하게 나왔는데 왜 그렇다고 생각하나?']},
+   ]},
+  {id:'co-daewoong', name:'대웅제약', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → 인적성 → AI면접 → 원데이면접 (직무/임원/PT/팀프로젝트)<br>특징: PT 발표 전형 강세 (40~50분 준비 후 발표). GMP·DI·일탈 시나리오 직무 질문 강함',
+   tags:['DI 질문 강함','PT 발표 전형','일탈·CAPA 시나리오','HPLC·QC 실무'],
+   warn:'※ 2026년부터 원데이 면접 폐지 후기 다수 — 전형 변경 여부 확인 필요',
+   months:[
+     {d:'2026. 04', qs:['스트레스를 해소하는 방법은?','협업 경험 — 본인은 어떤 역할을 맡았는지?','성공 사례 / 실패 후 극복 사례']},
+     {d:'2026. 03', qs:['|GMP 수준에서 가장 중요하다고 느끼는 것은?','|DI(Data Integrity)란 무엇인가?','|시스템 적합성(System Suitability)이란?','|아주 사소한 일이라도 일탈이라고 생각하는가?','|HPLC 시험 중 발생한 일탈 상황에 대한 논리적 검증 질문','|(PT) 미생물 또는 이화학 QC 진행 중 발생 가능한 일탈 가정하고 CAPA 수립하라']},
+     {d:'2026. 01', qs:['5년 뒤 커리어 모습 및 현재 진행 중인 것','|신규 장비 도입 시 품질 기준 확립에 관한 견해']},
+     {d:'2025. 11', qs:['|상사의 부당한 지시에 어떻게 반응할 것인가?']},
+     {d:'2025. 10', qs:['|공정서의 시험법이란 무엇인가?','|DI 관련 질문']},
+     {d:'2025. 07', qs:['|DI에 대해 얼마나 아는가?','갈등을 겪었을 때 어떻게 대처했는가?']},
+     {d:'2025. 06', qs:['|EM(Environmental Monitoring)이란 무엇인가?','야간·주말·휴일 근무에 대한 생각과 각오']},
+     {d:'2020. 03', qs:['|(PT 면접) 주요 GMP 주제에 대한 발표']},
+   ]},
+  {id:'co-daewon', name:'대원제약', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → PI 진단(인적성) → 1차 실무 면접 → 2차 임원 면접 (주로 공장 진행)<br>특징: 경력·직무 경험 기반 날카로운 검증. "오래 다닐 사람"인지 로열티 질문 강함',
+   tags:['로열티 질문 강함','PI 진단 포함','경력 기반 꼬리질문','GMP 교육 이수 확인'],
+   months:[
+     {d:'2026. 03', qs:['자기소개 및 자소서에 적힌 경험 기반 질문']},
+     {d:'2025. 12', qs:['퇴사 사유 (꼬리 질문 다수)','자신 있는 업무 및 그에 대한 설명','만약 대원제약을 퇴사하게 된다면 그 이유는 무엇일 것 같은가?']},
+     {d:'2025. 05', qs:['왜 대원제약인가? / 면접에서 떨어지면 어떻게 할 것인가?','|직무에서 가장 중요한 것은 무엇이라고 생각하는가?']},
+     {d:'2024. 04', qs:['자기소개 (왜 대원제약인지, 왜 당신을 뽑아야 하는지 포함)','|업무 관련 경험(기기 분석, GMP 교육, 인턴 등)에 대한 날카로운 질문','워라밸에 대해 어떻게 생각하는가? / 타자 속도']},
+     {d:'2024. 03', qs:['생명과학 전공인데 제약회사에 지원한 이유','|GMP에 대해 공부하거나 경험한 내용을 자유롭게 기술']},
+     {d:'2023. 10', qs:['본인을 어필할 수 있는 사항','왜 꼭 대원제약이어야 하는가? / 왜 꼭 이 사업장이어야 하는가?']},
+     {d:'2023. 04', qs:['|GMP에 대해서 아는 대로 설명','힘들었던 경험과 극복 사례 / 마지막 할 말']},
+     {d:'2022. 12', qs:['야근을 얼마나 해봤는가? / 지역 이동(근무지 변경)에 부담은 없는가?']},
+   ]},
+  {id:'co-donga', name:'동아ST', sub:'생산관리/품질관리/제조',
+   meta:'전형: 서류 → 인적성/역량검사 → 1차 면접(직무/영어/PT) → 2차 면접(임원)<br>영어 면접: 영문 GMP 스크립트(1장) 숙지 후 영어로 브리핑 (숙지 시간 10분 내외)<br>특징: "초등학생에게 설명하듯" 식의 완전 체득 여부 확인 질문 특징적. 전형 빠른 편',
+   tags:['영문 GMP 브리핑','DI·밸리데이션 심층','PT 면접','전형 빠른 편'],
+   months:[
+     {d:'2026. 05', qs:['|최근 제약바이오 트렌드 상황이 어떻게 흘러가고 있는 것 같은가?','대졸 생산직과 고졸 생산직의 차이가 무엇이라고 생각하는가?','(영어) 자기소개 및 영문 텍스트 분석·설명']},
+     {d:'2026. 04', qs:['|밸리데이션(Validation)이 무엇인지 아는가?','|데이터 분석 시 평균(Average)을 사용하면 안 좋은 점은 무엇인가?','(영어) 제공된 영문 페이지를 읽고 내용 설명하기']},
+     {d:'2026. 03', qs:['|GMP와 관련하여 세포 오염이나 방진복 착용에 관한 견해','1분 자기소개 및 지원동기','자소서보다는 실제 직무 현장 상황 대처 질문']},
+     {d:'2025. 01', qs:['|영문 GMP 스크립트 내용을 읽고 브리핑해 보라','|회사의 최근 현황이나 뉴스를 조사했을 텐데, 어떤 것을 보았고 무엇을 느꼈는가?']},
+     {d:'2024. 11', qs:['야근이나 추가 근무가 많은 편인데 감당할 수 있는가?','자신의 생각을 영어로 정리하여 PT(스피치) 하기']},
+     {d:'2024. 06', qs:['|초등학생에게 DI(Data Integrity)를 설명한다고 가정하고 쉽게 설명해 보라','신입으로서 경력 많은 분들과 어떻게 협업하고 일할 것인가?']},
+     {d:'2024. 05', qs:['|데이터 완전성(Data Integrity)의 의미와 중요성','수많은 제약사 중 왜 꼭 동아ST여야만 하는가?']},
+   ]},
+  {id:'co-myungin', name:'명인제약', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → 1차 면접(본사/회장단) → 2차 면접(근무 공장/회장단)<br>특징: 오너(회장) 면접이 핵심. 직무 전문성보다 전통적 인성 검증·장기 근속 가능성 평가<br>대기 방식: 주민등록 주소지가 먼 곳 순서로 면접 진행 → 서울/수도권 거주자 3시간 이상 대기 가능',
+   tags:['오너(회장) 면접','인성·로열티 중심','군대·가족 질문','10~15분 내외로 짧음','긴 대기 시간'],
+   months:[
+     {d:'2025. 12', qs:['간단한 자기소개','(비전공의 경우) 해당 학과는 무엇을 배우며, 졸업 후 주로 어디로 진출하는가?','자기소개서 기재 활동은 총 몇 개월 진행했으며, 혼자 수행한 것인가?']},
+     {d:'2025. 11', qs:['|실무 분석 및 제조 장비를 직접 운영해 본 경험이 있는가?','학창 시절에 직무와 관련하여 주로 무슨 과목을 수강했는가?','전반적인 학창 시절(캠퍼스 생활)은 어떠했는가?']},
+     {d:'2024. 11', qs:['자격증을 보유하고 있다면 왜 취득했는가?','합격 시 근무지까지 어떻게 통근할 것인가?','군대는 어디(어느 부대/보직)로 다녀왔는가?']},
+     {d:'2024. 08', qs:['자기소개','부모님은 현재 어떤 일을 하시는가? (가족 직업 관련)','거리가 있을 경우 구체적으로 어떻게 다닐 예정인가?']},
+     {d:'2024. 05', qs:['부모님 직업 및 가정환경 관련 질문','왜 수많은 직무 중 이 직무로 지원을 했는가?','군대에서 구체적으로 무엇을 했는가?']},
+     {d:'2024. 03', qs:['이력서상 공백 기간이 존재하는데, 그동안 무엇을 했는가?','본인의 성격이 실제 직무 수행에 어떤 영향을 미칠 것이라 생각하는가?']},
+   ]},
+  {id:'co-boryung', name:'보령', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → 인적성/케이스 면접/워크숍 → 1차 실무 면접 → 2차 임원 면접<br>특징: 예산 공장 근무 가능 여부·장기 근속 의지를 매우 중요하게 평가. 편안한 분위기',
+   tags:['예산 공장 근무','장기 근속 평가','SAP 사용 경험','편안한 분위기'],
+   months:[
+     {d:'2026. 04', qs:['자기소개 / 출퇴근·거주 어떻게 할 건지','공장 처음 보고 든 생각이 무엇인지']},
+     {d:'2026. 03', qs:['이직 사유 심층 질문 (진짜 사유 솔직 답변 요청)','|어떤 분석을 경험해봤는지 / 사용할 수 있는 분석 장비는?','예산 생활 괜찮은지? (거주 가능 여부)']},
+     {d:'2024. 09', qs:['왜 많은 제약사 중 보령을 선택했는가?','|밸리데이션(Validation)이란 무엇인가?','야근이 많은데 가능한가?']},
+     {d:'2024. 07', qs:['전공 과목 중 가장 인상 깊었던 과목 / 지원동기','회사에 대해 아는 것들을 말해보라']},
+     {d:'2024. 06', qs:['|SAP(ERP 시스템) 사용해봤는지','자기소개 / 취미 / 인턴 경험 관련 질문']},
+   ]},
   {id:'co-sbio', name:'삼성바이오로직스', sub:'생산/제조',
    meta:'전형: 직무면접(PT) + 임원면접 + 약식 GSAT + 인성검사 <strong>원데이 면접</strong><br>PT: 당일 3가지 주제 중 1개 선택 → 30~60분 준비 후 발표<br>특징: 영어 질문 갑작스럽게 등장. 아이스브레이킹 후 꼬리질문 날카로움',
    tags:['CMO/바이오의약품','배양/정제 공정','교대근무','영어면접','항체의약품'],
@@ -1657,35 +1096,15 @@ const companyData = [
      {d:'2018. 11', qs:['|LC(Liquid Chromatography) 및 Column 관련 질문','정직성(Integrity) 관련 인성 질문']},
      {d:'2018. 08', qs:['(압박) 같은 물 두 개를 놓고 하나를 어떻게 더 비싸게 팔 것인가?']},
    ]},
-  {id:'co-daewoong', name:'대웅제약', sub:'생산관리/품질관리',
-   meta:'전형: 서류 → 인적성 → AI면접 → 원데이면접 (직무/임원/PT/팀프로젝트)<br>특징: PT 발표 전형 강세 (40~50분 준비 후 발표). GMP·DI·일탈 시나리오 직무 질문 강함',
-   tags:['DI 질문 강함','PT 발표 전형','일탈·CAPA 시나리오','HPLC·QC 실무'],
-   warn:'※ 2026년부터 원데이 면접 폐지 후기 다수 — 전형 변경 여부 확인 필요',
+  {id:'co-yuhan', name:'유한양행', sub:'생산관리/품질관리',
+   meta:'전형: 필기시험(영어·회사정보 등) → 1차 실무 면접(GMP/공정) → 2차 임원 면접(인성)<br>특징: 면접 전 필기시험 포함. 보수적이고 묵직한 분위기. 오창 근무 의지·연고지 질문 빈번',
+   tags:['필기시험 포함','GMP 포괄적 이해','오창 근무','보수적 분위기'],
    months:[
-     {d:'2026. 04', qs:['스트레스를 해소하는 방법은?','협업 경험 — 본인은 어떤 역할을 맡았는지?','성공 사례 / 실패 후 극복 사례']},
-     {d:'2026. 03', qs:['|GMP 수준에서 가장 중요하다고 느끼는 것은?','|DI(Data Integrity)란 무엇인가?','|시스템 적합성(System Suitability)이란?','|아주 사소한 일이라도 일탈이라고 생각하는가?','|HPLC 시험 중 발생한 일탈 상황에 대한 논리적 검증 질문','|(PT) 미생물 또는 이화학 QC 진행 중 발생 가능한 일탈 가정하고 CAPA 수립하라']},
-     {d:'2026. 01', qs:['5년 뒤 커리어 모습 및 현재 진행 중인 것','|신규 장비 도입 시 품질 기준 확립에 관한 견해']},
-     {d:'2025. 11', qs:['|상사의 부당한 지시에 어떻게 반응할 것인가?']},
-     {d:'2025. 10', qs:['|공정서의 시험법이란 무엇인가?','|DI 관련 질문']},
-     {d:'2025. 07', qs:['|DI에 대해 얼마나 아는가?','갈등을 겪었을 때 어떻게 대처했는가?']},
-     {d:'2025. 06', qs:['|EM(Environmental Monitoring)이란 무엇인가?','야간·주말·휴일 근무에 대한 생각과 각오']},
-     {d:'2020. 03', qs:['|(PT 면접) 주요 GMP 주제에 대한 발표']},
-   ]},
-  {id:'co-hanmi', name:'한미약품', sub:'생산관리/품질관리',
-   meta:'전형: 서류 → AI 역량검사 → 1차 실무진 면접(팀장급) → 2차 임원 면접<br>특징: 영어 자기소개·역량 소개 세션 빈번. 자소서 기반 심층 꼬리 질문. LAPSCOVERY 사전 학습 필수',
-   tags:['영어면접 빈번','LAPSCOVERY','자소서 꼬리질문','ICH 가이드라인','기기 숙련도 검증'],
-   months:[
-     {d:'2026. 02', qs:['특별한 강점 혹은 차별점','(영어) 본인 역량 소개']},
-     {d:'2025. 12', qs:['|사용해본 기기에 관한 질문 (어려운 점·뿌듯한 점 위주)','직무 적합성 관련 질문']},
-     {d:'2025. 10', qs:['다른 회사 지원한 곳이 있는가? 왜 한미약품을 선택했는가?','|ICH Q2 관련 질문 (시험법 밸리데이션)']},
-     {d:'2025. 09', qs:['|한미약품 바이오플랜트 기술 LAPSCOVERY에 대해 아는 점','|소독제 사용 경험이 있는지','본인이 리더인데 팀원이 업무를 제대로 수행하지 못한다면?','직무 지원동기 / (영어) 자기소개','본인은 똑똑한 편인가, 노력하는 편인가?']},
-     {d:'2025. 08', qs:['에어팟 끼고 일하는 MZ들에 대한 본인의 생각','|DI(Data Integrity)가 무엇인지 알고 있는가?']},
-     {d:'2025. 03', qs:['자기소개 및 장단점 / 지원동기 / (영어) 자기소개','|품질관리에서 가장 중요하다고 생각하는 점']},
-     {d:'2024. 12', qs:['나보다 늦게 입사한 사원이 반말을 한다면?','|GMP란 무엇인가?']},
-     {d:'2024. 11', qs:['|가장 자신 있는 분석 기기','지원한 곳 외에 다른 직무로 배정된다면?']},
-     {d:'2024. 09', qs:['|QC가 무엇이라고 생각하는가?','|가장 자신 있는 실험(분석)']},
-     {d:'2024. 06', qs:['|의약품 청결도 관리에서 가장 중요한 프로세스는 무엇인가?','|사용 기기 중 하나를 골라 상세히 설명하라','(영어) 자기소개 혹은 지원동기']},
-     {d:'2024. 01', qs:['한미약품 자사 제품(파이프라인)을 알고 있는가?','|사용해본 기기 및 사용 시 주의사항','본인이 직무에 기여할 수 있는 구체적 방안']},
+     {d:'2025. 01', qs:['취미가 무엇인지 / 살면서 힘든 경험','기억에 남는 실험은 무엇이 있었는지','오창에서 근무가 가능한지']},
+     {d:'2024. 10', qs:['|제약산업에서 최근 품질 관련 이슈가 무엇이었는지','|생산과정에서 문제가 생겼을 때 어떻게 처리할 것인지','다른 지원회사가 있는지, 있다면 어디로 왜 갈 건지']},
+     {d:'2024. 02', qs:['|GMP에 대해 설명해 줄 수 있는지','|제약 공정에 대한 이해 관련 질문','본인에 대한 스스로의 평가']},
+     {d:'2023. 03', qs:['최근 읽은 책 / 취미 / 술은 얼마나 마시는지','|(필기시험) 영어 문제 및 회사 정보 관련 문항']},
+     {d:'2022. 09', qs:['|시험과 실험의 차이점은 무엇인가?','|정확성(Accuracy)과 정밀성(Precision)의 차이는?','워라밸에 대한 본인의 생각']},
    ]},
   {id:'co-ckd', name:'종근당', sub:'생산관리/품질관리',
    meta:'전형: 서류 → AI 면접 → 1차 실무진(천안/공장) → 2차 경영진(서울/본사)<br>특징: 2차 임원 압박 면접 강도 매우 높음. 흡연·음주·가치관·돌발 상황 대응 검증',
@@ -1704,44 +1123,6 @@ const companyData = [
      {d:'2023. 07', qs:['|이전 회사에서의 GMP 시스템 운영 관련 질문','팀 프로젝트 기여도가 낮다면 어떻게 하겠는가?']},
      {d:'2023. 06', qs:['(돌발) 아프리카에서 신발을 어떻게 판매할 것인가?','|GMP 관련 절차 및 세부 프로세스 (심층 질문)']},
    ]},
-  {id:'co-yuhan', name:'유한양행', sub:'생산관리/품질관리',
-   meta:'전형: 필기시험(영어·회사정보 등) → 1차 실무 면접(GMP/공정) → 2차 임원 면접(인성)<br>특징: 면접 전 필기시험 포함. 보수적이고 묵직한 분위기. 오창 근무 의지·연고지 질문 빈번',
-   tags:['필기시험 포함','GMP 포괄적 이해','오창 근무','보수적 분위기'],
-   months:[
-     {d:'2025. 01', qs:['취미가 무엇인지 / 살면서 힘든 경험','기억에 남는 실험은 무엇이 있었는지','오창에서 근무가 가능한지']},
-     {d:'2024. 10', qs:['|제약산업에서 최근 품질 관련 이슈가 무엇이었는지','|생산과정에서 문제가 생겼을 때 어떻게 처리할 것인지','다른 지원회사가 있는지, 있다면 어디로 왜 갈 건지']},
-     {d:'2024. 02', qs:['|GMP에 대해 설명해 줄 수 있는지','|제약 공정에 대한 이해 관련 질문','본인에 대한 스스로의 평가']},
-     {d:'2023. 03', qs:['최근 읽은 책 / 취미 / 술은 얼마나 마시는지','|(필기시험) 영어 문제 및 회사 정보 관련 문항']},
-     {d:'2022. 09', qs:['|시험과 실험의 차이점은 무엇인가?','|정확성(Accuracy)과 정밀성(Precision)의 차이는?','워라밸에 대한 본인의 생각']},
-   ]},
-  {id:'co-daewon', name:'대원제약', sub:'생산관리/품질관리',
-   meta:'전형: 서류 → PI 진단(인적성) → 1차 실무 면접 → 2차 임원 면접 (주로 공장 진행)<br>특징: 경력·직무 경험 기반 날카로운 검증. "오래 다닐 사람"인지 로열티 질문 강함',
-   tags:['로열티 질문 강함','PI 진단 포함','경력 기반 꼬리질문','GMP 교육 이수 확인'],
-   months:[
-     {d:'2026. 03', qs:['자기소개 및 자소서에 적힌 경험 기반 질문']},
-     {d:'2025. 12', qs:['퇴사 사유 (꼬리 질문 다수)','자신 있는 업무 및 그에 대한 설명','만약 대원제약을 퇴사하게 된다면 그 이유는 무엇일 것 같은가?']},
-     {d:'2025. 05', qs:['왜 대원제약인가? / 면접에서 떨어지면 어떻게 할 것인가?','|직무에서 가장 중요한 것은 무엇이라고 생각하는가?']},
-     {d:'2024. 04', qs:['자기소개 (왜 대원제약인지, 왜 당신을 뽑아야 하는지 포함)','|업무 관련 경험(기기 분석, GMP 교육, 인턴 등)에 대한 날카로운 질문','워라밸에 대해 어떻게 생각하는가? / 타자 속도']},
-     {d:'2024. 03', qs:['생명과학 전공인데 제약회사에 지원한 이유','|GMP에 대해 공부하거나 경험한 내용을 자유롭게 기술']},
-     {d:'2023. 10', qs:['본인을 어필할 수 있는 사항','왜 꼭 대원제약이어야 하는가? / 왜 꼭 이 사업장이어야 하는가?']},
-     {d:'2023. 04', qs:['|GMP에 대해서 아는 대로 설명','힘들었던 경험과 극복 사례 / 마지막 할 말']},
-     {d:'2022. 12', qs:['야근을 얼마나 해봤는가? / 지역 이동(근무지 변경)에 부담은 없는가?']},
-   ]},
-  {id:'co-gc', name:'녹십자', sub:'생산관리/품질관리',
-   meta:'전형: 서류 → 인성검사 → 1차 면접(PT/실무) → 2차 면접(임원/경영진)<br>PT 면접: 현장 부여 주제 발표 (7~10분, 준비 15분)<br>특징: 오창·화순 공장 근무 가능 여부 집요하게 확인. 이직 사유 심층 검증',
-   tags:['PT 면접','화순·오창 근무 확인','영어 즉석 영작','이직 사유 집요'],
-   months:[
-     {d:'2026. 05', qs:['MBTI가 무엇인가? / 본인의 단점 / 이직 사유']},
-     {d:'2026. 04', qs:['PT 발표 내용 및 자소서 기반 질문','|해당 업무를 실제로 해봤는지 테스트하는 질문 (실무 검증)','이직을 자주 한 이유']},
-     {d:'2026. 02', qs:['영어 잘하는지? / 다른 지역 공장(연고지 외)을 가도 괜찮은지?','리더십을 발휘해 본 경험 / 자신을 왜 뽑아야 하는가?']},
-     {d:'2025. 11', qs:['왜 녹십자로 이직하려고 하는가? / 갑자기 다른 부서로 배치해도 괜찮은가?']},
-     {d:'2025. 07', qs:['직무 관련 자기소개 (한국어/영어)','화순 공장에 보낸다면 갈 생각이 있는가?','PT 면접 후 꼬리 질문 및 왜 그 주제를 선택했는지']},
-     {d:'2024. 12', qs:['상사와의 불화를 어떻게 해결할 것인지','|완제 공정 과정에 대해 전반적인 흐름을 알고 있는가? (vial 세척~capping)','|완제 부서에서 원하는 구체적인 직무는 무엇인가?']},
-     {d:'2024. 09', qs:['|기본적인 GMP 질문','지원한 직무 이외에 다른 직무를 하라고 하면 어떻게 할지?']},
-     {d:'2024. 05', qs:['|GMP가 무엇인지?','(영어) 자기소개 / 회사에 대해 아는 것']},
-     {d:'2024. 03', qs:['|직무 관련 경험이 있는지? (용어 설명 포함)','본인이 다녔던 캠퍼스에 대해 말하고 이를 영어로 다시 말해보라']},
-     {d:'2023. 07', qs:['|SQL에 대해 설명하세요','인성검사 결과 특정 부분이 부족하게 나왔는데 왜 그렇다고 생각하나?']},
-   ]},
   {id:'co-gccell', name:'지씨셀(GC Cell)', sub:'생산/품질관리',
    meta:'전형: 서류 → 1차 실무진 면접 → 2차 임원 면접 (또는 다대다 1회로 종료)<br>특징: 세포치료제 특성상 주말·공휴일 근무 가능 여부 확답 필수. 부드러운 분위기',
    tags:['세포치료제','주말 근무 확답 필수','세포 배양 경험','부드러운 분위기'],
@@ -1752,6 +1133,34 @@ const companyData = [
      {d:'2025. 09', qs:['|GMP란 무엇인가?','주말이나 공휴일 출근이 가능한가?']},
      {d:'2025. 05', qs:['주말 근무가 가능한가? / 종교가 있는가? (주말 근무 확인용)','|자사 제품과 회사 관련하여 아는 것이 있는가?']},
      {d:'2024. 06', qs:['|학교에서 진행한 실험 중 가장 기억에 남는 것은? (세포 배양, 샘플링, 단백질 농도 측정 등)']},
+   ]},
+  {id:'co-hanrim', name:'한림제약', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → AI 면접/인적성 → 1차 면접(실무/공장) → 2차 면접(임원/본사)<br>특징: 케미컬 의약품 비중 높음. 영문 약전 해석·화학 구조식 전공 질문 출제. 서면 작성 전형 포함<br>용인 인근 거주자 선호. 회사 매출액·직원 수 등 기업 정보 직접 질문',
+   tags:['케미컬 제약','영문 약전 해석','화학 구조식','용인 공장 근무','서면 작성 전형'],
+   months:[
+     {d:'2025. 08', qs:['글씨를 잘 쓰는지? (수기 문서 작성 관련)','지원동기 / 자기소개']},
+     {d:'2024. 12', qs:['|간단한 GMP 정의','직무 관련 교육 내용 질문 / 읽은 책에 대한 질문','현재 사는 지역 관련 질문 (용인 거주 여부)']},
+     {d:'2024. 07', qs:['이직을 하려는 진짜 이유는 무엇인가?','희망 연봉을 받아야 하는 구체적인 이유','상사와의 갈등 상황 발생 시 대처법']},
+     {d:'2024. 01', qs:['바이오 제약회사가 아닌 케미컬 위주의 한림제약을 지원한 이유는?','|(최종면접 전 서면 질문) 지원 직무에 대해 설명해 보라']},
+     {d:'2023. 05', qs:['|품질관리팀에서 하는 업무가 구체적으로 무엇인지 아는가?','|품질관리 업무 중 가장 중요한 것은 무엇이라고 생각하는가?','우리 회사의 직원 수와 매출액이 얼마인지 아는가?']},
+     {d:'2023. 04', qs:['|기기 분석을 직접 진행해 본 경험이 있는가?','|영문 약전(Pharmacopoeia) 해석','|화학 구조식 관련 전공 질문']},
+     {d:'2023. 07', qs:['지원동기','왜 하필 QA(품질보증) 직무를 지원했는가?','성격의 장점과 단점']},
+   ]},
+  {id:'co-hanmi', name:'한미약품', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → AI 역량검사 → 1차 실무진 면접(팀장급) → 2차 임원 면접<br>특징: 영어 자기소개·역량 소개 세션 빈번. 자소서 기반 심층 꼬리 질문. LAPSCOVERY 사전 학습 필수',
+   tags:['영어면접 빈번','LAPSCOVERY','자소서 꼬리질문','ICH 가이드라인','기기 숙련도 검증'],
+   months:[
+     {d:'2026. 02', qs:['특별한 강점 혹은 차별점','(영어) 본인 역량 소개']},
+     {d:'2025. 12', qs:['|사용해본 기기에 관한 질문 (어려운 점·뿌듯한 점 위주)','직무 적합성 관련 질문']},
+     {d:'2025. 10', qs:['다른 회사 지원한 곳이 있는가? 왜 한미약품을 선택했는가?','|ICH Q2 관련 질문 (시험법 밸리데이션)']},
+     {d:'2025. 09', qs:['|한미약품 바이오플랜트 기술 LAPSCOVERY에 대해 아는 점','|소독제 사용 경험이 있는지','본인이 리더인데 팀원이 업무를 제대로 수행하지 못한다면?','직무 지원동기 / (영어) 자기소개','본인은 똑똑한 편인가, 노력하는 편인가?']},
+     {d:'2025. 08', qs:['에어팟 끼고 일하는 MZ들에 대한 본인의 생각','|DI(Data Integrity)가 무엇인지 알고 있는가?']},
+     {d:'2025. 03', qs:['자기소개 및 장단점 / 지원동기 / (영어) 자기소개','|품질관리에서 가장 중요하다고 생각하는 점']},
+     {d:'2024. 12', qs:['나보다 늦게 입사한 사원이 반말을 한다면?','|GMP란 무엇인가?']},
+     {d:'2024. 11', qs:['|가장 자신 있는 분석 기기','지원한 곳 외에 다른 직무로 배정된다면?']},
+     {d:'2024. 09', qs:['|QC가 무엇이라고 생각하는가?','|가장 자신 있는 실험(분석)']},
+     {d:'2024. 06', qs:['|의약품 청결도 관리에서 가장 중요한 프로세스는 무엇인가?','|사용 기기 중 하나를 골라 상세히 설명하라','(영어) 자기소개 혹은 지원동기']},
+     {d:'2024. 01', qs:['한미약품 자사 제품(파이프라인)을 알고 있는가?','|사용해본 기기 및 사용 시 주의사항','본인이 직무에 기여할 수 있는 구체적 방안']},
    ]},
   {id:'co-hk', name:'HK이노엔', sub:'생산관리/품질관리',
    meta:'전형: 서류 → 인적성/AI → 1차 실무면접(PT/오송) → 2차 경영진(서울)<br>PT: 현장 즉석 작성 후 발표<br>특징: HPLC 원리·DI 꼬리 질문 매우 날카로움. 면접비 지급',
@@ -1764,27 +1173,23 @@ const companyData = [
      {d:'2024. 06', qs:['팀장까지 성장하고 싶은 의지가 있는가?','|기기를 어느 정도 사용할 수 있는가? (숙련도)','우리 회사 제품은 무엇이 있는지 알고 있는가?']},
      {d:'2020. 12', qs:['|DI(Data Integrity)에 관해 설명해 보라','|HPLC에 관해 설명해 보라','|DI 준수를 위해 가장 중요하다고 생각하는 것은?','무단횡단을 한 적이 있는가? (도덕성/정직성)']},
    ]},
-  {id:'co-boryung', name:'보령', sub:'생산관리/품질관리',
-   meta:'전형: 서류 → 인적성/케이스 면접/워크숍 → 1차 실무 면접 → 2차 임원 면접<br>특징: 예산 공장 근무 가능 여부·장기 근속 의지를 매우 중요하게 평가. 편안한 분위기',
-   tags:['예산 공장 근무','장기 근속 평가','SAP 사용 경험','편안한 분위기'],
+  {id:'co-jw', name:'JW중외제약', sub:'생산관리/품질관리',
+   meta:'전형: 서류 → AI 역량검사 → 1차 면접(실무/캠퍼스) → 2차 면접(임원/과천 본사)<br>특징: 다대다 그룹 면접. 면접 시간 20~30분으로 짧아 임팩트 있는 자기소개 필수<br>HPLC 구성·요소와 DI 개념·현장 적용이 단골 지식 질문',
+   tags:['HPLC 구성 질문','DI 현장 적용','다대다 그룹 면접','QMS 직무','강력한 첫인상 필수'],
    months:[
-     {d:'2026. 04', qs:['자기소개 / 출퇴근·거주 어떻게 할 건지','공장 처음 보고 든 생각이 무엇인지']},
-     {d:'2026. 03', qs:['이직 사유 심층 질문 (진짜 사유 솔직 답변 요청)','|어떤 분석을 경험해봤는지 / 사용할 수 있는 분석 장비는?','예산 생활 괜찮은지? (거주 가능 여부)']},
-     {d:'2024. 09', qs:['왜 많은 제약사 중 보령을 선택했는가?','|밸리데이션(Validation)이란 무엇인가?','야근이 많은데 가능한가?']},
-     {d:'2024. 07', qs:['전공 과목 중 가장 인상 깊었던 과목 / 지원동기','회사에 대해 아는 것들을 말해보라']},
-     {d:'2024. 06', qs:['|SAP(ERP 시스템) 사용해봤는지','자기소개 / 취미 / 인턴 경험 관련 질문']},
-   ]},
-  {id:'co-donga', name:'동아ST', sub:'생산관리/품질관리/제조',
-   meta:'전형: 서류 → 인적성/역량검사 → 1차 면접(직무/영어/PT) → 2차 면접(임원)<br>영어 면접: 영문 GMP 스크립트(1장) 숙지 후 영어로 브리핑 (숙지 시간 10분 내외)<br>특징: "초등학생에게 설명하듯" 식의 완전 체득 여부 확인 질문 특징적. 전형 빠른 편',
-   tags:['영문 GMP 브리핑','DI·밸리데이션 심층','PT 면접','전형 빠른 편'],
-   months:[
-     {d:'2026. 05', qs:['|최근 제약바이오 트렌드 상황이 어떻게 흘러가고 있는 것 같은가?','대졸 생산직과 고졸 생산직의 차이가 무엇이라고 생각하는가?','(영어) 자기소개 및 영문 텍스트 분석·설명']},
-     {d:'2026. 04', qs:['|밸리데이션(Validation)이 무엇인지 아는가?','|데이터 분석 시 평균(Average)을 사용하면 안 좋은 점은 무엇인가?','(영어) 제공된 영문 페이지를 읽고 내용 설명하기']},
-     {d:'2026. 03', qs:['|GMP와 관련하여 세포 오염이나 방진복 착용에 관한 견해','1분 자기소개 및 지원동기','자소서보다는 실제 직무 현장 상황 대처 질문']},
-     {d:'2025. 01', qs:['|영문 GMP 스크립트 내용을 읽고 브리핑해 보라','|회사의 최근 현황이나 뉴스를 조사했을 텐데, 어떤 것을 보았고 무엇을 느꼈는가?']},
-     {d:'2024. 11', qs:['야근이나 추가 근무가 많은 편인데 감당할 수 있는가?','자신의 생각을 영어로 정리하여 PT(스피치) 하기']},
-     {d:'2024. 06', qs:['|초등학생에게 DI(Data Integrity)를 설명한다고 가정하고 쉽게 설명해 보라','신입으로서 경력 많은 분들과 어떻게 협업하고 일할 것인가?']},
-     {d:'2024. 05', qs:['|데이터 완전성(Data Integrity)의 의미와 중요성','수많은 제약사 중 왜 꼭 동아ST여야만 하는가?']},
+     {d:'2026. 04', qs:['당신의 경험이 이 회사에 무엇을 기여할 수 있는가?']},
+     {d:'2026. 03', qs:['본인이 해당 지원 직무에 뽑혀야 하는 이유와 본인만의 강점','자기소개에서 언급한 성과 달성을 위해 실제로 한 업무와 행동을 더 구체적으로 설명하라','1분 자기소개 / 이직 사유']},
+     {d:'2026. 01', qs:['본인의 성격 장단점','우리 회사(JW중외제약)에 대해 아는 대로 말해 보라 (주력 제품 및 가능성 등)','회사 지원동기 및 본인의 강점']},
+     {d:'2025. 11', qs:['|품질관리(QC)란 무엇이라고 생각하는가?','지원동기','|해당 직무를 수행하는 데 있어 가장 중요하다고 생각하는 것은 무엇인가?']},
+     {d:'2025. 07', qs:['|DI(Data Integrity)에 관련해서 설명해 보라','|품질관리에 있어 가장 중요한 역량은 무엇인가?']},
+     {d:'2025. 05', qs:['자기소개 및 직무에 대해서 아는 점 설명','|과거에 경험해 본 기준일탈(일탈 상황)과 이를 어떻게 해결했는가?','|실행해 본 시험(분석) 중에 특히 어려웠던 것은 무엇이었는가?']},
+     {d:'2025. 04', qs:['|DI(Data Integrity)가 무엇인가?','주변 사람들이 나를 어떻게 평가하는가?']},
+     {d:'2025. 02', qs:['|HPLC 분석 시 가장 중요한 요소는 무엇이라고 생각하는가? (기기 경험 검증)','|사용 가능한 분석 기기 관련 질문']},
+     {d:'2025. 01', qs:['|HPLC의 구체적인 시스템 구성에 대해 설명해 보라','입사 동기 및 입사 후 포부']},
+     {d:'2024. 10', qs:['과거에 상대를 논리적으로 설득시켜본 경험이 있는가?','|QMS(품질경영시스템) 직무 지원자로서 이 직무에서 하는 업무에 대해 아는 대로 말해 보라']},
+     {d:'2024. 06', qs:['|품질 직무에 대해 "정직"이라는 단어를 제외하고 한마디로 정의한다면?','이력서상 공백기가 발생한 이유']},
+     {d:'2024. 04', qs:['|품질관리란 무엇이라 생각하는가?','|지원 직무에 대해 상세히 설명해 보라','(희망자 선착순) 영어로 자기소개를 해 보시오']},
+     {d:'2024. 01', qs:['|DI(Data Integrity)의 정의와 이를 실제 제조/품질 현장에 어떻게 적용할 것인지 설명하라']},
    ]},
 ];
 
@@ -2049,6 +1454,5 @@ renderCompany();
 document.getElementById('hTotalQ').textContent = qaData.length;
 document.getElementById('totalQ2').textContent  = qaData.length;
 </script>
-
-
-</body></html>
+</body>
+</html>
